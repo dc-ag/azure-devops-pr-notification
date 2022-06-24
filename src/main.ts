@@ -41,12 +41,7 @@ export async function run() {
       pull_number: prRequestId,
     });
 
-    console.log("-----");
-    console.log(github.context);
-    console.log("-----");
-    console.log(prResponse.data);
-    console.log("-----");
-
+    const branchName = prResponse.data.head.ref;
     const title = prResponse.data.title;
     const description = prResponse.data.body ?? "";
 
@@ -66,6 +61,18 @@ export async function run() {
     if (null === workItemId) {
       console.log("Try matching work item id from description ...");
       regResult = description.match(rExp);
+      if (null !== regResult && regResult.length >= 2) {
+        workItemId = parseInt(regResult[1]);
+        console.log(`... success! Work item id = ${workItemId}`);
+      } else {
+        console.log("... failed!");
+      }
+    }
+
+    // Match from branch name if not found in title and description
+    if (null === workItemId) {
+      console.log("Try matching work item id from branch name ...");
+      regResult = branchName.match(rExp);
       if (null !== regResult && regResult.length >= 2) {
         workItemId = parseInt(regResult[1]);
         console.log(`... success! Work item id = ${workItemId}`);

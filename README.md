@@ -19,8 +19,9 @@ jobs:
         uses: dc-ag/azure-devops-pr-notification@v1.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          devops-card-id-regex: "[a-zA-Z0-9]*/([0-9]+)_.*" # Regex which gets applied to title and body (in this 
-                                                           # order) to find the DevOpsId (only first match gets used)
+          devops-card-id-regex: "[a-zA-Z0-9]*/([0-9]+)_.*" # Regex which gets applied to title, body and branch name
+                                                           # (in this order) to find the DevOpsId (only first match
+                                                           # gets used)
           set-to-state: "" # The state you want the work item to be set to (exact string match). Keep empty to skip.
           add-pr-link: true # Wheather you want to add the PR to DevOps (requires GitHub Integration into DevOps and 
                             # the repo to be actively linked!)
