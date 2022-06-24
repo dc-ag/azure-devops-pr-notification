@@ -1,26 +1,37 @@
-name: "Auto Assign Assignees From Team"
-description: "Assign Assignees to a PR from a team"
+name: "Azure DevOps Pull Request Notifications"
+description: "Automatically links a GitHub PR to Azure DevOps Work Item and/or set a custom state for it"
 author: "dc AG"
 branding:
   icon: "check"
-  color: "blue"
+  color: "green"
 inputs:
   repo-token:
     description: "Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}"
-    required: true  
-  read-token:
-      description: "Read only token which needs access to fetch team members"
-      required: true
-  org:
-    description: "Organization of the team"
-    required: false
-  team:
-    description: "Team to chose assignees from"
     required: true
-  amount:
-    description: "Number of persons that should be assigned (randomly)"
+  devops-card-id-regex:
+    description: "Regex which gets applied to title and body (in this order) to find the DevOpsId (only first match gets used)"
+    required: true
+  set-to-state:
+    description: "The state you want the work item to be set to (exact string match). Keep empty to skip."
     required: false
-
+  devops-organization:
+    description: "The url-slug of the devops organization"
+    required: false
+  devops-pat:
+    description:
+      "The Personal-Access-Token (PAT) to authorize the action to communicate with DevOps.
+      As of now the PAT needs the following rights:
+      - 'Work Items - Read, write, & manage' to move the work item between states
+      - 'Full Access' to link the PR to the work item (currently there is no specific right to
+      only allow this, it only works with full access. Be careful who you give this token!)"
+    required: true
+  fail-on-error:
+    description:
+      "If you don't want the action to fail (and create failed checks) on error (e.g. when
+      # the work item id couldn't be found via the regex or an unforseen error occurs) set
+      # this to false. Setting this to false will also allow partial completion (e.g. only
+      # link pr but not move the state)"
+    required: false
 runs:
   using: "node12"
   main: "dist/index.js"
