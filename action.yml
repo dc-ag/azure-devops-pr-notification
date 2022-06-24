@@ -1,0 +1,26 @@
+name: "Auto Assign Assignees From Team"
+description: "Assign Assignees to a PR from a team"
+author: "dc AG"
+branding:
+  icon: "check"
+  color: "blue"
+inputs:
+  repo-token:
+    description: "Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}"
+    required: true  
+  read-token:
+      description: "Read only token which needs access to fetch team members"
+      required: true
+  org:
+    description: "Organization of the team"
+    required: false
+  team:
+    description: "Team to chose assignees from"
+    required: true
+  amount:
+    description: "Number of persons that should be assigned (randomly)"
+    required: false
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
