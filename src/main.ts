@@ -41,6 +41,12 @@ export async function run() {
       pull_number: prRequestId,
     });
 
+    console.log("-----");
+    console.log(github.context);
+    console.log("-----");
+    console.log(prResponse.data);
+    console.log("-----");
+    
     const title = prResponse.data.title;
     const description = prResponse.data.body ?? "";
 

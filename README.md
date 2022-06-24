@@ -12,7 +12,7 @@ on:
     types: [opened, ready_for_review]
 
 jobs:
-  assign-assignees:
+  update-devops-workitem:
     runs-on: ubuntu-latest
     steps:
       - name: "Update DevOps Work Item"
