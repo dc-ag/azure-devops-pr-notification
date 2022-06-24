@@ -46,7 +46,7 @@ export async function run() {
     console.log("-----");
     console.log(prResponse.data);
     console.log("-----");
-    
+
     const title = prResponse.data.title;
     const description = prResponse.data.body ?? "";
 
