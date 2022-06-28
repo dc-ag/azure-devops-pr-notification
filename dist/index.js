@@ -86,8 +86,7 @@ function run() {
                 repo: prRepo,
                 pull_number: prRequestId,
             });
-            console.log(github.context.repo);
-            console.log(github.context.issue);
+            console.log(github.context);
             const repoClient = github.getOctokit(repoToken);
             const prResponse = yield repoClient.rest.pulls.get({
                 owner: prOrg,
