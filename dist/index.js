@@ -294,6 +294,23 @@ function run() {
                                     });
                                 }
                             }
+                            console.log({
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                    Authorization: `Basic ${Buffer.from(":" + azToken).toString("base64")}`,
+                                    Accept: "application/json",
+                                },
+                                body: JSON.stringify({
+                                    context: {
+                                        properties: {
+                                            workItemId: workItemId,
+                                            identifiers: prIdentifierList,
+                                        },
+                                    },
+                                    contributionIds: [msGitHubLinkDataProviderLink],
+                                }),
+                            });
                             // Request states for all PRs
                             const dataProviderResponse = yield (0, node_fetch_1.default)(dataProviderUrl, {
                                 method: "POST",
@@ -316,6 +333,7 @@ function run() {
                                 throw new Error("Missing authorization (Linking PRs to cards requires full access for the PAT).");
                             }
                             const responseData = yield dataProviderResponse.json();
+                            console.log(responseData);
                             const resolvedLinkItems = responseData.data[msGitHubLinkDataProviderLink].resolvedLinkItems;
                             if (!Array.isArray(resolvedLinkItems)) {
                                 throw new Error("Error fetching linked PR data.");
