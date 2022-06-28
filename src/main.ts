@@ -281,11 +281,8 @@ export async function run() {
             }[] = [];
 
             const prLinkRegex: RegExp = new RegExp(artifactLinkGitHubPrRegex);
-            console.log(artifactLinkGitHubPrRegex);
             for (const pr of linkedPrs) {
-              console.log(pr);
               let prLinkRegResult = pr.url?.match(prLinkRegex);
-              console.log(prLinkRegResult);
               if (undefined !== prLinkRegResult && null !== prLinkRegResult) {
                 prIdentifierList.push({
                   itemType: 1,
@@ -295,25 +292,6 @@ export async function run() {
               }
             }
 
-            console.log({
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-                Authorization: `Basic ${Buffer.from(":" + azToken).toString(
-                  "base64"
-                )}`,
-                Accept: "application/json",
-              },
-              body: JSON.stringify({
-                context: {
-                  properties: {
-                    workItemId: workItemId,
-                    identifiers: prIdentifierList,
-                  },
-                },
-                contributionIds: [msGitHubLinkDataProviderLink],
-              }),
-            });
             // Request states for all PRs
             const dataProviderResponse = await fetch(dataProviderUrl, {
               method: "POST",
@@ -341,7 +319,6 @@ export async function run() {
             }
 
             const responseData = await dataProviderResponse.json();
-            console.log(responseData);
             const resolvedLinkItems =
               responseData.data[msGitHubLinkDataProviderLink].resolvedLinkItems;
             if (!Array.isArray(resolvedLinkItems)) {
