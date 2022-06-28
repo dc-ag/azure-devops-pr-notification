@@ -281,8 +281,8 @@ export async function run() {
             }[] = [];
 
             const prLinkRegex: RegExp = new RegExp(artifactLinkGitHubPrRegex);
-            console.log(linkedPrs);
             for (const pr of linkedPrs) {
+              console.log(pr);
               let prLinkRegResult = pr.url?.match(prLinkRegex);
               console.log(prLinkRegResult);
               if (undefined !== prLinkRegResult && null !== prLinkRegResult) {
