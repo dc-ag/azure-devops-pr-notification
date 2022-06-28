@@ -78,40 +78,26 @@ function run() {
             const dontSetStateWhilePrsOpen = core.getBooleanInput("dont-set-state-while-prs-open");
             const addPullRequestLink = core.getBooleanInput("add-pr-link");
             const dataProviderUrl = dataProviderUrlBase.replace("%DEVOPS_ORG%", devOpsOrg);
-            const prRequestId = github.context.issue.number;
-            const prOrg = github.context.repo.owner;
-            const prRepo = github.context.repo.repo;
-            console.log({
-                owner: prOrg,
-                repo: prRepo,
-                pull_number: prRequestId,
-            });
-            console.log(github.context);
-            const repoClient = github.getOctokit(repoToken);
-            const prResponse = yield repoClient.rest.pulls.get({
-                owner: prOrg,
-                repo: prRepo,
-                pull_number: prRequestId,
-            });
-            const branchName = prResponse.data.head.ref;
-            const title = prResponse.data.title;
-            const description = (_a = prResponse.data.body) !== null && _a !== void 0 ? _a : "";
             const rExp = new RegExp(devOpsIdRegex);
             let workItemId = null;
-            // Match from title
-            console.log("Try matching work item id from title ...");
-            let regResult = title.match(rExp);
-            if (null !== regResult && regResult.length >= 2) {
-                workItemId = parseInt(regResult[1]);
-                console.log(`... success! Work item id = ${workItemId}`);
-            }
-            else {
-                console.log("... failed!");
-            }
-            // Match from description if not found in title
-            if (null === workItemId) {
-                console.log("Try matching work item id from description ...");
-                regResult = description.match(rExp);
+            const prRequestId = github.context.issue.number;
+            const prRepo = github.context.repo.repo;
+            const prOrg = github.context.repo.owner;
+            const triggerFromPr = undefined !== prRequestId;
+            if (triggerFromPr) {
+                console.log("Trigger from PR.");
+                const repoClient = github.getOctokit(repoToken);
+                const prResponse = yield repoClient.rest.pulls.get({
+                    owner: prOrg,
+                    repo: prRepo,
+                    pull_number: prRequestId,
+                });
+                const branchName = prResponse.data.head.ref;
+                const title = prResponse.data.title;
+                const description = (_a = prResponse.data.body) !== null && _a !== void 0 ? _a : "";
+                // Match from title
+                console.log("Try matching work item id from title ...");
+                let regResult = title.match(rExp);
                 if (null !== regResult && regResult.length >= 2) {
                     workItemId = parseInt(regResult[1]);
                     console.log(`... success! Work item id = ${workItemId}`);
@@ -119,11 +105,36 @@ function run() {
                 else {
                     console.log("... failed!");
                 }
+                // Match from description if not found in title
+                if (null === workItemId) {
+                    console.log("Try matching work item id from description ...");
+                    regResult = description.match(rExp);
+                    if (null !== regResult && regResult.length >= 2) {
+                        workItemId = parseInt(regResult[1]);
+                        console.log(`... success! Work item id = ${workItemId}`);
+                    }
+                    else {
+                        console.log("... failed!");
+                    }
+                }
+                // Match from branch name if not found in title and description
+                if (null === workItemId) {
+                    console.log("Try matching work item id from branch name ...");
+                    regResult = branchName.match(rExp);
+                    if (null !== regResult && regResult.length >= 2) {
+                        workItemId = parseInt(regResult[1]);
+                        console.log(`... success! Work item id = ${workItemId}`);
+                    }
+                    else {
+                        console.log("... failed!");
+                    }
+                }
             }
-            // Match from branch name if not found in title and description
-            if (null === workItemId) {
-                console.log("Try matching work item id from branch name ...");
-                regResult = branchName.match(rExp);
+            else {
+                console.log("Trigger from merge/direct push.");
+                const commitMessage = github.context.payload.head_commit.message;
+                console.log("Try matching work item id from commit message ...");
+                let regResult = commitMessage.match(rExp);
                 if (null !== regResult && regResult.length >= 2) {
                     workItemId = parseInt(regResult[1]);
                     console.log(`... success! Work item id = ${workItemId}`);
@@ -187,7 +198,7 @@ function run() {
             }
             console.log("... success!");
             hasError = false;
-            if (addPullRequestLink) {
+            if (addPullRequestLink && triggerFromPr) {
                 console.log("Adding PR link to card ...");
                 try {
                     const dataProviderResponse = yield (0, node_fetch_1.default)(dataProviderUrl, {
