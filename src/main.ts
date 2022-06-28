@@ -50,6 +50,15 @@ export async function run() {
     const prOrg = github.context.repo.owner;
     const prRepo = github.context.repo.repo;
 
+    console.log({
+      owner: prOrg,
+      repo: prRepo,
+      pull_number: prRequestId,
+    });
+
+    console.log(github.context.repo);
+    console.log(github.context.issue);
+
     const repoClient = github.getOctokit(repoToken);
     const prResponse = await repoClient.rest.pulls.get({
       owner: prOrg,
