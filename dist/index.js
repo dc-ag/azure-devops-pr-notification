@@ -284,8 +284,10 @@ function run() {
                             // Match ArticaftLinks into internalRepoIds and PR numbers to request states
                             let prIdentifierList = [];
                             const prLinkRegex = new RegExp(artifactLinkGitHubPrRegex);
+                            console.log(linkedPrs);
                             for (const pr of linkedPrs) {
                                 let prLinkRegResult = (_d = pr.url) === null || _d === void 0 ? void 0 : _d.match(prLinkRegex);
+                                console.log(prLinkRegResult);
                                 if (undefined !== prLinkRegResult && null !== prLinkRegResult) {
                                     prIdentifierList.push({
                                         itemType: 1,
