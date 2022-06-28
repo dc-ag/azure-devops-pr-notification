@@ -14,7 +14,7 @@ const msGitHubLinkDataProviderLink =
   "ms.vss-work-web.github-link-data-provider";
 const dataProviderUrlBase = `https://dev.azure.com/%DEVOPS_ORG%/_apis/Contribution/dataProviders/query?api-version=7.1-preview.1`;
 const artifactLinkGitHubPrRegex =
-  "\\/GitHub\\/PullRequest\\/([0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12})%2F([0-9]*)";
+  "\\/GitHub\\/PullRequest\\/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})%2F([0-9]*)";
 
 // eslint-disable-next-line require-jsdoc
 export async function run() {
