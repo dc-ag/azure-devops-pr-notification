@@ -8,11 +8,14 @@ inputs:
   repo-token:
     description: "Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}"
     required: true
-  devops-card-id-regex:
+  devops-work-item-regex:
     description: "Regex which gets applied to title and body (in this order) to find the DevOpsId (only first match gets used)"
     required: true
   set-to-state:
     description: "The state you want the work item to be set to (exact string match). Keep empty to skip."
+    required: false
+  dont-set-state-while-prs-open:
+    description: "Set to true if you don't want to set the state while GitHub PRs associated with the DevOps Work Item are still open"
     required: false
   devops-organization:
     description: "The url-slug of the devops organization"

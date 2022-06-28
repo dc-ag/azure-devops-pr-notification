@@ -8,6 +8,14 @@ import {
 import { IWorkItemTrackingApi } from "azure-devops-node-api/WorkItemTrackingApi";
 import fetch from "node-fetch";
 
+const relArticaftLink = "ArtifactLink";
+const relNameGitHubPr = "GitHub Pull Request";
+const msGitHubLinkDataProviderLink =
+  "ms.vss-work-web.github-link-data-provider";
+const dataProviderUrlBase = `https://dev.azure.com/%DEVOPS_ORG%/_apis/Contribution/dataProviders/query?api-version=7.1-preview.1`;
+const artifactLinkGitHubPrRegex =
+  "/GitHub/PullRequest/([0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12})%2F([0-9]*)";
+
 // eslint-disable-next-line require-jsdoc
 export async function run() {
   try {
@@ -21,14 +29,22 @@ export async function run() {
       trimWhitespace: true,
     });
     const failOnError: boolean = core.getBooleanInput("fail-on-error");
-    const devOpsIdRegex: string = core.getInput("devops-card-id-regex", {
+    const devOpsIdRegex: string = core.getInput("devops-work-item-regex", {
       required: true,
       trimWhitespace: true,
     });
     const setToState: string = core.getInput("set-to-state", {
       trimWhitespace: true,
     });
+    const dontSetStateWhilePrsOpen: boolean = core.getBooleanInput(
+      "dont-set-state-while-prs-open"
+    );
     const addPullRequestLink: boolean = core.getBooleanInput("add-pr-link");
+
+    const dataProviderUrl = dataProviderUrlBase.replace(
+      "%DEVOPS_ORG%",
+      devOpsOrg
+    );
 
     const prRequestId = github.context.issue.number;
     const prOrg = github.context.repo.owner;
@@ -47,6 +63,7 @@ export async function run() {
 
     const rExp: RegExp = new RegExp(devOpsIdRegex);
     let workItemId: number | null = null;
+
     // Match from title
     console.log("Try matching work item id from title ...");
     let regResult = title.match(rExp);
@@ -110,7 +127,7 @@ export async function run() {
     let workItem: WorkItem | null = null;
     let hasError = false;
     await azWorkApi
-      .getWorkItem(workItemId, undefined, undefined, WorkItemExpand.All)
+      .getWorkItem(workItemId, undefined, undefined, WorkItemExpand.Relations)
       .then((wi: WorkItem) => {
         workItem = wi;
       })
@@ -144,9 +161,9 @@ export async function run() {
     hasError = false;
     if (addPullRequestLink) {
       console.log("Adding PR link to card ...");
-      const dataProviderUrls = `https://dev.azure.com/${devOpsOrg}/_apis/Contribution/dataProviders/query?api-version=7.1-preview.1`;
+
       try {
-        const dataProviderResponse = await fetch(dataProviderUrls, {
+        const dataProviderResponse = await fetch(dataProviderUrl, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -164,7 +181,7 @@ export async function run() {
                 ],
               },
             },
-            contributionIds: ["ms.vss-work-web.github-link-data-provider"],
+            contributionIds: [msGitHubLinkDataProviderLink],
           }),
         });
         if (dataProviderResponse.status === 401) {
@@ -174,33 +191,38 @@ export async function run() {
         }
         const responseData = await dataProviderResponse.json();
         const internalRepoId: string | null =
-          responseData.data["ms.vss-work-web.github-link-data-provider"]
-            .resolvedLinkItems[0].repoInternalId ?? null;
+          responseData.data[msGitHubLinkDataProviderLink].resolvedLinkItems[0]
+            .repoInternalId ?? null;
         if (null === internalRepoId || internalRepoId.length === 0) {
-          throw new Error("Internal repo url couldn't be resolved");
+          throw new Error("Internal repo url couldn't be resolved.");
         }
 
         const artifactUrl = `vstfs:///GitHub/PullRequest/${internalRepoId}%2F${prRequestId}`;
 
         try {
-          await azWorkApi.updateWorkItem(
+          workItem = await azWorkApi.updateWorkItem(
             {},
             [
               {
                 op: "add",
                 path: "/relations/-",
                 value: {
-                  rel: "ArtifactLink",
+                  rel: relArticaftLink,
                   url: artifactUrl,
 
                   attributes: {
-                    name: "GitHub Pull Request",
+                    name: relNameGitHubPr,
                     comment: `Pull Request ${prRequestId}`,
                   },
                 },
               },
             ],
-            workItemId
+            workItemId,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            WorkItemExpand.Relations
           );
         } catch (exception: any) {
           const errorMessage = exception.toString();
@@ -226,28 +248,115 @@ export async function run() {
     hasError = false;
     if ("" !== setToState) {
       console.log("Setting work item state ...");
-      try {
-        await azWorkApi.updateWorkItem(
-          {},
-          [
-            {
-              op: "replace",
-              path: "/fields/System.State",
-              value: setToState,
-            },
-          ],
-          workItemId
-        );
-      } catch (exception) {
-        hasError = true;
-        console.log(`... failed! ${exception}`);
-        if (failOnError) {
-          core.setFailed(`Failed to set new state for work item!`);
-          return;
+      let skipStateAssignment = false;
+      hasError = false;
+      if (dontSetStateWhilePrsOpen) {
+        try {
+          const linkedPrs = workItem.relations?.filter(
+            (rel) =>
+              rel.rel === relArticaftLink &&
+              rel.attributes?.name === relNameGitHubPr
+          );
+          if (undefined !== linkedPrs && linkedPrs.length > 0) {
+            // Match ArticaftLinks into internalRepoIds and PR numbers to request states
+            let prIdentifierList: {
+              itemType: number;
+              numberOrSHA: string;
+              repoInternalId: string;
+            }[] = [];
+
+            const prLinkRegex: RegExp = new RegExp(artifactLinkGitHubPrRegex);
+            for (const pr of linkedPrs) {
+              let prLinkRegResult = pr.url?.match(prLinkRegex);
+              if (undefined !== prLinkRegResult && null !== prLinkRegResult) {
+                prIdentifierList.push({
+                  itemType: 1,
+                  numberOrSHA: prLinkRegResult[2],
+                  repoInternalId: prLinkRegResult[1],
+                });
+              }
+            }
+
+            // Request states for all PRs
+            const dataProviderResponse = await fetch(dataProviderUrl, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: `Basic ${Buffer.from(":" + azToken).toString(
+                  "base64"
+                )}`,
+                Accept: "application/json",
+              },
+              body: JSON.stringify({
+                context: {
+                  properties: {
+                    workItemId: workItemId,
+                    identifiers: prIdentifierList,
+                  },
+                },
+                contributionIds: [msGitHubLinkDataProviderLink],
+              }),
+            });
+            if (dataProviderResponse.status === 401) {
+              throw new Error(
+                "Missing authorization (Linking PRs to cards requires full access for the PAT)."
+              );
+            }
+
+            const responseData = await dataProviderResponse.json();
+            const resolvedLinkItems =
+              responseData.data[msGitHubLinkDataProviderLink].resolvedLinkItems;
+            if (!Array.isArray(resolvedLinkItems)) {
+              throw new Error("Error fetching linked PR data.");
+            }
+            for (const resolvedLinkItem of resolvedLinkItems) {
+              if (undefined === resolvedLinkItem.state) {
+                throw new Error("Error fetching PR state from linked PR data.");
+              }
+              if (resolvedLinkItem.state === "Open") {
+                skipStateAssignment = true;
+                break;
+              }
+            }
+          }
+        } catch (exception) {
+          hasError = true;
+          console.log(`... failed! ${exception}`);
+          if (failOnError) {
+            core.setFailed(`Failed to fetch states of linked PRs!`);
+            return;
+          }
         }
       }
       if (!hasError) {
-        console.log("... success!");
+        if (!skipStateAssignment) {
+          hasError = false;
+          try {
+            await azWorkApi.updateWorkItem(
+              {},
+              [
+                {
+                  op: "replace",
+                  path: "/fields/System.State",
+                  value: setToState,
+                },
+              ],
+              workItemId
+            );
+          } catch (exception) {
+            hasError = true;
+            console.log(`... failed! ${exception}`);
+            if (failOnError) {
+              core.setFailed(`Failed to set new state for work item!`);
+              return;
+            }
+          }
+          if (!hasError) {
+            console.log("... success!");
+          }
+        } else {
+          console.log("... skipped, still has open PRs!");
+        }
       }
     }
   } catch (error) {
