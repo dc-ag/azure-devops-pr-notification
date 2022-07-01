@@ -1,0 +1,15 @@
+name: "Assign Assignees"
+on:
+  pull_request:
+    types: [ opened, ready_for_review ]
+
+jobs:
+  assign-assignees:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dc-ag/auto-assign-assignees-from-team@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          read-token: ${{ secrets.AUTO_ASSIGN_ASSIGNEES_TOKEN }}
+          team: ${{ secrets.PR_ASSIGNEE_TEAM_NAME }} # the team name
+          amount: 1 # amount of assignees to assign from the given team, 0 to assign all. If the amount exceeds the member count of the team all members will be added@

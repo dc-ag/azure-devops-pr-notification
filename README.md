@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Update DevOps Work Item"
-        uses: dc-ag/azure-devops-pr-notification@v1.1.0
+        uses: dc-ag/azure-devops-pr-notification@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           devops-work-item-regex: "[a-zA-Z0-9]*/([0-9]+)_.*" # Regex which gets applied to title, body and branch name
