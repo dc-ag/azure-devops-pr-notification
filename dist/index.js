@@ -4735,7 +4735,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -4770,7 +4770,7 @@ class BuildApi extends basem.ClientApiBase {
                     artifactName: artifactName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -4805,7 +4805,7 @@ class BuildApi extends basem.ClientApiBase {
                     artifactName: artifactName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -4831,7 +4831,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -4876,7 +4876,7 @@ class BuildApi extends basem.ClientApiBase {
                     fileName: fileName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.5", "build", "1db06c96-014e-44e1-ac91-90b2d4b3e984", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -4904,7 +4904,7 @@ class BuildApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "f2192269-89fa-4f94-baf6-8fb128c55159", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "f2192269-89fa-4f94-baf6-8fb128c55159", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -4940,7 +4940,7 @@ class BuildApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "af5122d3-3438-485e-a25a-2dbbfde84ee6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "af5122d3-3438-485e-a25a-2dbbfde84ee6", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -4963,7 +4963,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "398c85bc-81aa-4822-947c-a194a05f0fef", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "398c85bc-81aa-4822-947c-a194a05f0fef", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -4993,7 +4993,7 @@ class BuildApi extends basem.ClientApiBase {
                     id: id,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "398c85bc-81aa-4822-947c-a194a05f0fef", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "398c85bc-81aa-4822-947c-a194a05f0fef", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5025,7 +5025,7 @@ class BuildApi extends basem.ClientApiBase {
                     branchName: branchName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "de6a4df8-22cd-44ee-af2d-39f6aa7a4261", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "de6a4df8-22cd-44ee-af2d-39f6aa7a4261", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5061,7 +5061,7 @@ class BuildApi extends basem.ClientApiBase {
                     branchName: branchName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "e05d4403-9b81-4244-8763-20fde28d1976", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "e05d4403-9b81-4244-8763-20fde28d1976", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5095,7 +5095,7 @@ class BuildApi extends basem.ClientApiBase {
                     branchName: branchName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "21b3b9ce-fad5-4567-9ad0-80679794e003", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "21b3b9ce-fad5-4567-9ad0-80679794e003", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5129,7 +5129,7 @@ class BuildApi extends basem.ClientApiBase {
                     branchName: branchName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "21b3b9ce-fad5-4567-9ad0-80679794e003", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "21b3b9ce-fad5-4567-9ad0-80679794e003", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5157,7 +5157,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "3da19a6a-f088-45c4-83ce-2ad3a87be6c4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "3da19a6a-f088-45c4-83ce-2ad3a87be6c4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5185,7 +5185,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5217,7 +5217,7 @@ class BuildApi extends basem.ClientApiBase {
                     propertyFilters: propertyFilters,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5285,7 +5285,7 @@ class BuildApi extends basem.ClientApiBase {
                     repositoryType: repositoryType,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5322,7 +5322,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5355,7 +5355,7 @@ class BuildApi extends basem.ClientApiBase {
                     retry: retry,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5382,7 +5382,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "0cd358e1-9217-4d94-8269-1c1ee6f93dcf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5418,7 +5418,7 @@ class BuildApi extends basem.ClientApiBase {
                     includeSourceChange: includeSourceChange,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "54572c7b-bbd3-45d4-80dc-28be08941620", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "54572c7b-bbd3-45d4-80dc-28be08941620", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5452,7 +5452,7 @@ class BuildApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "f10f0ea5-18a1-43ec-a8fb-2042c7be9b43", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "f10f0ea5-18a1-43ec-a8fb-2042c7be9b43", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5478,7 +5478,7 @@ class BuildApi extends basem.ClientApiBase {
                     controllerId: controllerId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "fcac1932-2ee1-437f-9b6f-7f696be858f6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "fcac1932-2ee1-437f-9b6f-7f696be858f6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5505,7 +5505,7 @@ class BuildApi extends basem.ClientApiBase {
                     name: name,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "fcac1932-2ee1-437f-9b6f-7f696be858f6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "fcac1932-2ee1-437f-9b6f-7f696be858f6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5538,7 +5538,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionToCloneRevision: definitionToCloneRevision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5566,7 +5566,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5604,7 +5604,7 @@ class BuildApi extends basem.ClientApiBase {
                     includeLatestBuilds: includeLatestBuilds,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5637,7 +5637,7 @@ class BuildApi extends basem.ClientApiBase {
      * @param {boolean} includeLatestBuilds - Indicates whether to return the latest and latest completed builds for this definition.
      * @param {string} taskIdFilter - If specified, filters to definitions that use the specified task.
      * @param {number} processType - If specified, filters to definitions with the given process type.
-     * @param {string} yamlFilename - If specified, filters to YAML definitions that match the given filename.
+     * @param {string} yamlFilename - If specified, filters to YAML definitions that match the given filename. To use this filter includeAllProperties should be set to true
      */
     getDefinitions(project, name, repositoryId, repositoryType, queryOrder, top, continuationToken, minMetricsTime, definitionIds, path, builtAfter, notBuiltAfter, includeAllProperties, includeLatestBuilds, taskIdFilter, processType, yamlFilename) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -5664,7 +5664,7 @@ class BuildApi extends basem.ClientApiBase {
                     yamlFilename: yamlFilename,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5699,7 +5699,7 @@ class BuildApi extends basem.ClientApiBase {
                     deleted: deleted,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5734,7 +5734,7 @@ class BuildApi extends basem.ClientApiBase {
                     secretsSourceDefinitionRevision: secretsSourceDefinitionRevision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "build", "dbeaf647-6167-421a-bda9-c9327b25e2e6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5772,7 +5772,7 @@ class BuildApi extends basem.ClientApiBase {
                     path: path,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "29d12225-b1d9-425f-b668-6c594a981313", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "29d12225-b1d9-425f-b668-6c594a981313", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -5804,7 +5804,7 @@ class BuildApi extends basem.ClientApiBase {
                     path: path,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5837,7 +5837,7 @@ class BuildApi extends basem.ClientApiBase {
                     path: path,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5869,7 +5869,7 @@ class BuildApi extends basem.ClientApiBase {
                     queryOrder: queryOrder,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5903,7 +5903,7 @@ class BuildApi extends basem.ClientApiBase {
                     path: path,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "a906531b-d2da-4f55-bda7-f3e676cc50d9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5929,7 +5929,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "c4aefd19-30ff-405b-80ad-aca021e7242a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "c4aefd19-30ff-405b-80ad-aca021e7242a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5956,7 +5956,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "c4aefd19-30ff-405b-80ad-aca021e7242a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "c4aefd19-30ff-405b-80ad-aca021e7242a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -5983,7 +5983,7 @@ class BuildApi extends basem.ClientApiBase {
                     daysToLookback: daysToLookback,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "1a9c48be-0ef5-4ec2-b94f-f053bdd2d3bf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "1a9c48be-0ef5-4ec2-b94f-f053bdd2d3bf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6015,7 +6015,7 @@ class BuildApi extends basem.ClientApiBase {
                     branchName: branchName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "54481611-01f4-47f3-998f-160da0f0c229", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "54481611-01f4-47f3-998f-160da0f0c229", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6042,7 +6042,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6075,7 +6075,7 @@ class BuildApi extends basem.ClientApiBase {
                     ids: ids && ids.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6103,7 +6103,7 @@ class BuildApi extends basem.ClientApiBase {
                     leaseId: leaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6136,7 +6136,7 @@ class BuildApi extends basem.ClientApiBase {
                     leasesToFetch: leasesToFetch && leasesToFetch.join("|"),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6170,7 +6170,7 @@ class BuildApi extends basem.ClientApiBase {
                     runId: runId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6207,7 +6207,7 @@ class BuildApi extends basem.ClientApiBase {
                     runId: runId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6236,7 +6236,7 @@ class BuildApi extends basem.ClientApiBase {
                     leaseId: leaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "272051e4-9af1-45b5-ae22-8d960a5539d4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6272,7 +6272,7 @@ class BuildApi extends basem.ClientApiBase {
                     endLine: endLine,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -6306,7 +6306,7 @@ class BuildApi extends basem.ClientApiBase {
                     endLine: endLine,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6334,7 +6334,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6362,7 +6362,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -6396,7 +6396,7 @@ class BuildApi extends basem.ClientApiBase {
                     endLine: endLine,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "35a80daf-7f30-45fc-86e8-6b813d9c90df", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -6426,7 +6426,7 @@ class BuildApi extends basem.ClientApiBase {
                     minMetricsTime: minMetricsTime,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "7433fae7-a6bc-41dc-a6e2-eef9005ce41a", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "7433fae7-a6bc-41dc-a6e2-eef9005ce41a", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6458,7 +6458,7 @@ class BuildApi extends basem.ClientApiBase {
                     minMetricsTime: minMetricsTime,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "d973b939-0ce0-4fec-91d8-da3940fa1827", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "d973b939-0ce0-4fec-91d8-da3940fa1827", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6484,7 +6484,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "591cb5a4-2d46-4f3a-a697-5cd42b6bd332", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "591cb5a4-2d46-4f3a-a697-5cd42b6bd332", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6522,7 +6522,7 @@ class BuildApi extends basem.ClientApiBase {
                     path: path,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "7944d6fb-df01-4709-920a-7a189aa34037", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "7944d6fb-df01-4709-920a-7a189aa34037", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6554,7 +6554,7 @@ class BuildApi extends basem.ClientApiBase {
                     filter: filter && filter.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "0a6312e9-0627-49b7-8083-7d74a64849c9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "0a6312e9-0627-49b7-8083-7d74a64849c9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6585,7 +6585,7 @@ class BuildApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "0a6312e9-0627-49b7-8083-7d74a64849c9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "0a6312e9-0627-49b7-8083-7d74a64849c9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -6618,7 +6618,7 @@ class BuildApi extends basem.ClientApiBase {
                     filter: filter && filter.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "d9826ad7-2a68-46a9-a6e9-677698777895", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "d9826ad7-2a68-46a9-a6e9-677698777895", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6649,7 +6649,7 @@ class BuildApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "d9826ad7-2a68-46a9-a6e9-677698777895", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "d9826ad7-2a68-46a9-a6e9-677698777895", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -6686,7 +6686,7 @@ class BuildApi extends basem.ClientApiBase {
                     serviceEndpointId: serviceEndpointId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "d8763ec7-9ff0-4fb4-b2b2-9d757906ff14", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "d8763ec7-9ff0-4fb4-b2b2-9d757906ff14", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6718,7 +6718,7 @@ class BuildApi extends basem.ClientApiBase {
                     type: type,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "45bcaa88-67e1-4042-a035-56d3b4a7d44c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "45bcaa88-67e1-4042-a035-56d3b4a7d44c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6750,7 +6750,7 @@ class BuildApi extends basem.ClientApiBase {
                     type: type,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "45bcaa88-67e1-4042-a035-56d3b4a7d44c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "45bcaa88-67e1-4042-a035-56d3b4a7d44c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/html", apiVersion);
@@ -6788,7 +6788,7 @@ class BuildApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "d44d1680-f978-4834-9b93-8c6e132329c9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "d44d1680-f978-4834-9b93-8c6e132329c9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6815,7 +6815,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "ea623316-1967-45eb-89ab-e9e6110cf2d6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "ea623316-1967-45eb-89ab-e9e6110cf2d6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6841,7 +6841,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "ea623316-1967-45eb-89ab-e9e6110cf2d6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "ea623316-1967-45eb-89ab-e9e6110cf2d6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6864,7 +6864,7 @@ class BuildApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "3813d06c-9e36-4ea1-aac3-61a485d60e3d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "3813d06c-9e36-4ea1-aac3-61a485d60e3d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6890,7 +6890,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "dadb46e7-5851-4c72-820e-ae8abb82f59f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "dadb46e7-5851-4c72-820e-ae8abb82f59f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6917,7 +6917,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "dadb46e7-5851-4c72-820e-ae8abb82f59f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "dadb46e7-5851-4c72-820e-ae8abb82f59f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6945,7 +6945,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "7c116775-52e5-453e-8c5d-914d9762d8c4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "7c116775-52e5-453e-8c5d-914d9762d8c4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6971,7 +6971,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "aa8c1c9c-ef8b-474a-b8c4-785c7b191d0d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "aa8c1c9c-ef8b-474a-b8c4-785c7b191d0d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -6998,7 +6998,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "aa8c1c9c-ef8b-474a-b8c4-785c7b191d0d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "aa8c1c9c-ef8b-474a-b8c4-785c7b191d0d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7024,7 +7024,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "3ce81729-954f-423d-a581-9fea01d25186", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "3ce81729-954f-423d-a581-9fea01d25186", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7055,7 +7055,7 @@ class BuildApi extends basem.ClientApiBase {
                     stageRefName: stageRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "b8aac6c9-744b-46e1-88fc-3550969f9313", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "b8aac6c9-744b-46e1-88fc-3550969f9313", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7095,7 +7095,7 @@ class BuildApi extends basem.ClientApiBase {
                     label: label,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "07acfdce-4757-4439-b422-ddd13a2fcc10", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "07acfdce-4757-4439-b422-ddd13a2fcc10", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7125,7 +7125,7 @@ class BuildApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7154,7 +7154,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7184,7 +7184,7 @@ class BuildApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7212,7 +7212,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7241,7 +7241,7 @@ class BuildApi extends basem.ClientApiBase {
                     buildId: buildId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "6e6114b2-8161-44c8-8f6c-c5505782427f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7271,7 +7271,7 @@ class BuildApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7300,7 +7300,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7330,7 +7330,7 @@ class BuildApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7362,7 +7362,7 @@ class BuildApi extends basem.ClientApiBase {
                     revision: revision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7391,7 +7391,7 @@ class BuildApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "cb894432-134a-4d31-a839-83beceaace4b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7419,7 +7419,7 @@ class BuildApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "d84ac5c6-edc7-43d5-adc9-1b34be5dea09", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "d84ac5c6-edc7-43d5-adc9-1b34be5dea09", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7445,7 +7445,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "d84ac5c6-edc7-43d5-adc9-1b34be5dea09", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "d84ac5c6-edc7-43d5-adc9-1b34be5dea09", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7473,7 +7473,7 @@ class BuildApi extends basem.ClientApiBase {
                     templateId: templateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7501,7 +7501,7 @@ class BuildApi extends basem.ClientApiBase {
                     templateId: templateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7527,7 +7527,7 @@ class BuildApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7556,7 +7556,7 @@ class BuildApi extends basem.ClientApiBase {
                     templateId: templateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "build", "e884571e-7f92-4d6a-9274-3f5649900835", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7592,7 +7592,7 @@ class BuildApi extends basem.ClientApiBase {
                     planId: planId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "8baac422-4c6e-4de5-8532-db96d92acffa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "8baac422-4c6e-4de5-8532-db96d92acffa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7627,7 +7627,7 @@ class BuildApi extends basem.ClientApiBase {
                     repository: repository,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "793bceb8-9736-4030-bd2f-fb3ce6d6b478", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "793bceb8-9736-4030-bd2f-fb3ce6d6b478", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7661,7 +7661,7 @@ class BuildApi extends basem.ClientApiBase {
                     repository: repository,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "8f20ff82-9498-4812-9f6e-9c01bdc50e99", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "8f20ff82-9498-4812-9f6e-9c01bdc50e99", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7693,7 +7693,7 @@ class BuildApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "5a21f5d2-5642-47e4-a0bd-1356e6731bee", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "5a21f5d2-5642-47e4-a0bd-1356e6731bee", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7726,7 +7726,7 @@ class BuildApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "5a21f5d2-5642-47e4-a0bd-1356e6731bee", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "5a21f5d2-5642-47e4-a0bd-1356e6731bee", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7766,7 +7766,7 @@ class BuildApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "build", "52ba8915-5518-42e3-a4bb-b0182d159e2d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "build", "52ba8915-5518-42e3-a4bb-b0182d159e2d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7804,7 +7804,7 @@ class BuildApi extends basem.ClientApiBase {
                     includeLatestBuilds: includeLatestBuilds,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "build", "7c3df3a1-7e51-4150-8cf7-540347f8697f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "build", "7c3df3a1-7e51-4150-8cf7-540347f8697f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7909,7 +7909,7 @@ class CoreApi extends basem.ClientApiBase {
                     projectId: projectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "54b2a2a0-859b-4d05-827c-ec4c862f641a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "54b2a2a0-859b-4d05-827c-ec4c862f641a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7936,7 +7936,7 @@ class CoreApi extends basem.ClientApiBase {
                     projectId: projectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "54b2a2a0-859b-4d05-827c-ec4c862f641a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "54b2a2a0-859b-4d05-827c-ec4c862f641a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7961,7 +7961,7 @@ class CoreApi extends basem.ClientApiBase {
                     projectId: projectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "b4f70219-e18b-42c5-abe3-98b07d35525e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "b4f70219-e18b-42c5-abe3-98b07d35525e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -7987,7 +7987,7 @@ class CoreApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "b4f70219-e18b-42c5-abe3-98b07d35525e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "b4f70219-e18b-42c5-abe3-98b07d35525e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8015,7 +8015,7 @@ class CoreApi extends basem.ClientApiBase {
                     kind: kind,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "b4f70219-e18b-42c5-abe3-98b07d35525e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "b4f70219-e18b-42c5-abe3-98b07d35525e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8040,7 +8040,7 @@ class CoreApi extends basem.ClientApiBase {
                     mruName: mruName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8065,7 +8065,7 @@ class CoreApi extends basem.ClientApiBase {
                     mruName: mruName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8089,7 +8089,7 @@ class CoreApi extends basem.ClientApiBase {
                     mruName: mruName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8114,7 +8114,7 @@ class CoreApi extends basem.ClientApiBase {
                     mruName: mruName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "5ead0b70-2572-4697-97e9-f341069a783a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8148,7 +8148,7 @@ class CoreApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "294c494c-2600-4d7e-b76c-3dd50c3c95be", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "294c494c-2600-4d7e-b76c-3dd50c3c95be", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8174,7 +8174,7 @@ class CoreApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "93878975-88c5-4e6a-8abb-7ddd77a8a7d8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "93878975-88c5-4e6a-8abb-7ddd77a8a7d8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8197,7 +8197,7 @@ class CoreApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "93878975-88c5-4e6a-8abb-7ddd77a8a7d8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "93878975-88c5-4e6a-8abb-7ddd77a8a7d8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8223,7 +8223,7 @@ class CoreApi extends basem.ClientApiBase {
                     collectionId: collectionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "8031090f-ef1d-4af6-85fc-698cd75d42bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "8031090f-ef1d-4af6-85fc-698cd75d42bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8252,7 +8252,7 @@ class CoreApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "8031090f-ef1d-4af6-85fc-698cd75d42bf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "8031090f-ef1d-4af6-85fc-698cd75d42bf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8279,7 +8279,7 @@ class CoreApi extends basem.ClientApiBase {
                     minRevision: minRevision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "6488a877-4749-4954-82ea-7340d36be9f2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "6488a877-4749-4954-82ea-7340d36be9f2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8311,7 +8311,7 @@ class CoreApi extends basem.ClientApiBase {
                     includeHistory: includeHistory,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8346,7 +8346,7 @@ class CoreApi extends basem.ClientApiBase {
                     getDefaultTeamImageUrl: getDefaultTeamImageUrl,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8370,7 +8370,7 @@ class CoreApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8396,7 +8396,7 @@ class CoreApi extends basem.ClientApiBase {
                     projectId: projectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8423,7 +8423,7 @@ class CoreApi extends basem.ClientApiBase {
                     projectId: projectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "core", "603fe2ac-9723-48b9-88ad-09305aa6c6e1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8455,7 +8455,7 @@ class CoreApi extends basem.ClientApiBase {
                     properties: properties && properties.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "0a3ffdfc-fe94-47a6-bb27-79bf3f762eac", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "0a3ffdfc-fe94-47a6-bb27-79bf3f762eac", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8485,7 +8485,7 @@ class CoreApi extends basem.ClientApiBase {
                     keys: keys && keys.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "4976a71a-4487-49aa-8aab-a1eda469037a", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "4976a71a-4487-49aa-8aab-a1eda469037a", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8514,7 +8514,7 @@ class CoreApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "core", "4976a71a-4487-49aa-8aab-a1eda469037a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "core", "4976a71a-4487-49aa-8aab-a1eda469037a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -8537,7 +8537,7 @@ class CoreApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "ec1f4311-f2b4-4c15-b2b8-8990b80d2908", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "ec1f4311-f2b4-4c15-b2b8-8990b80d2908", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8567,7 +8567,7 @@ class CoreApi extends basem.ClientApiBase {
                     site: site,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "ec1f4311-f2b4-4c15-b2b8-8990b80d2908", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "ec1f4311-f2b4-4c15-b2b8-8990b80d2908", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8592,7 +8592,7 @@ class CoreApi extends basem.ClientApiBase {
                     proxyUrl: proxyUrl,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "core", "ec1f4311-f2b4-4c15-b2b8-8990b80d2908", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "core", "ec1f4311-f2b4-4c15-b2b8-8990b80d2908", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8625,7 +8625,7 @@ class CoreApi extends basem.ClientApiBase {
                     '$expandIdentity': expandIdentity,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "core", "7a4d9ee9-3433-4347-b47a-7a80f1cf307e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "core", "7a4d9ee9-3433-4347-b47a-7a80f1cf307e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8652,7 +8652,7 @@ class CoreApi extends basem.ClientApiBase {
                     projectId: projectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8680,7 +8680,7 @@ class CoreApi extends basem.ClientApiBase {
                     teamId: teamId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8712,7 +8712,7 @@ class CoreApi extends basem.ClientApiBase {
                     '$expandIdentity': expandIdentity,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8748,7 +8748,7 @@ class CoreApi extends basem.ClientApiBase {
                     '$expandIdentity': expandIdentity,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8777,7 +8777,7 @@ class CoreApi extends basem.ClientApiBase {
                     teamId: teamId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "core", "d30a3dd1-f8ba-442a-b86a-bd0c0c383e59", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8847,7 +8847,7 @@ class DashboardApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8882,7 +8882,7 @@ class DashboardApi extends basem.ClientApiBase {
                     dashboardId: dashboardId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8917,7 +8917,7 @@ class DashboardApi extends basem.ClientApiBase {
                     dashboardId: dashboardId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8950,7 +8950,7 @@ class DashboardApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -8986,7 +8986,7 @@ class DashboardApi extends basem.ClientApiBase {
                     dashboardId: dashboardId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9020,7 +9020,7 @@ class DashboardApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Dashboard", "454b3e51-2e6e-48d4-ad81-978154089351", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9056,7 +9056,7 @@ class DashboardApi extends basem.ClientApiBase {
                     dashboardId: dashboardId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9093,7 +9093,7 @@ class DashboardApi extends basem.ClientApiBase {
                     widgetId: widgetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9130,7 +9130,7 @@ class DashboardApi extends basem.ClientApiBase {
                     widgetId: widgetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9168,7 +9168,7 @@ class DashboardApi extends basem.ClientApiBase {
                     widgetId: widgetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9206,7 +9206,7 @@ class DashboardApi extends basem.ClientApiBase {
                     widgetId: widgetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Dashboard", "bdcff53a-8355-4172-a00a-40497ea23afc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9234,7 +9234,7 @@ class DashboardApi extends basem.ClientApiBase {
                     contributionId: contributionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Dashboard", "6b3628d3-e96f-4fc7-b176-50240b03b515", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Dashboard", "6b3628d3-e96f-4fc7-b176-50240b03b515", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9267,7 +9267,7 @@ class DashboardApi extends basem.ClientApiBase {
                     '$scope': scope,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Dashboard", "6b3628d3-e96f-4fc7-b176-50240b03b515", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Dashboard", "6b3628d3-e96f-4fc7-b176-50240b03b515", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9344,7 +9344,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     isBuyOperationValid: isBuyOperationValid,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "288dff58-d13b-468e-9671-0fb754e9398c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "288dff58-d13b-468e-9671-0fb754e9398c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9366,7 +9366,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "da616457-eed3-4672-92d7-18d21f5c1658", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "da616457-eed3-4672-92d7-18d21f5c1658", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9392,7 +9392,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "23a312e0-562d-42fb-a505-5a046b5635db", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "23a312e0-562d-42fb-a505-5a046b5635db", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9420,7 +9420,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     registrationId: registrationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "f21cfc80-d2d2-4248-98bb-7820c74c4606", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "f21cfc80-d2d2-4248-98bb-7820c74c4606", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9453,7 +9453,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     collectionName: collectionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9487,7 +9487,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     documentId: documentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9521,7 +9521,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     documentId: documentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9553,7 +9553,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     collectionName: collectionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9586,7 +9586,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     collectionName: collectionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9619,7 +9619,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     collectionName: collectionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "bbe06c18-1c8b-4fcd-b9c6-1535aaab8749", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9648,7 +9648,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "56c331f1-ce53-4318-adfd-4db5c52a7a2e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "56c331f1-ce53-4318-adfd-4db5c52a7a2e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9681,7 +9681,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     forceRefresh: forceRefresh,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "92755d3d-9a8a-42b3-8a4d-87359fe5aa93", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "92755d3d-9a8a-42b3-8a4d-87359fe5aa93", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9703,7 +9703,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "046c980f-1345-4ce2-bf85-b46d10ff4cfd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "046c980f-1345-4ce2-bf85-b46d10ff4cfd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9722,7 +9722,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
      *
      * @param {boolean} includeDisabledExtensions - If true (the default), include disabled extensions in the results.
      * @param {boolean} includeErrors - If true, include installed extensions with errors.
-     * @param {string[]} assetTypes
+     * @param {string[]} assetTypes - Determines which files are returned in the files array.  Provide the wildcard '*' to return all files, or a colon separated list to retrieve files with specific asset types.
      * @param {boolean} includeInstallationIssues
      */
     getInstalledExtensions(includeDisabledExtensions, includeErrors, assetTypes, includeInstallationIssues) {
@@ -9736,7 +9736,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     includeInstallationIssues: includeInstallationIssues,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "275424d0-c844-4fe2-bda6-04933a1357d8", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "275424d0-c844-4fe2-bda6-04933a1357d8", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9760,7 +9760,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "275424d0-c844-4fe2-bda6-04933a1357d8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "275424d0-c844-4fe2-bda6-04933a1357d8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9779,7 +9779,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
      *
      * @param {string} publisherName - Name of the publisher. Example: "fabrikam".
      * @param {string} extensionName - Name of the extension. Example: "ops-tools".
-     * @param {string[]} assetTypes
+     * @param {string[]} assetTypes - Determines which files are returned in the files array.  Provide the wildcard '*' to return all files, or a colon separated list to retrieve files with specific asset types.
      */
     getInstalledExtensionByName(publisherName, extensionName, assetTypes) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -9792,7 +9792,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     assetTypes: assetTypes && assetTypes.join(":"),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "fb0da285-f23e-4b56-8b53-3ef5f9f6de66", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "fb0da285-f23e-4b56-8b53-3ef5f9f6de66", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9822,7 +9822,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     version: version
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "fb0da285-f23e-4b56-8b53-3ef5f9f6de66", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "fb0da285-f23e-4b56-8b53-3ef5f9f6de66", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9856,7 +9856,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     reasonCode: reasonCode,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "fb0da285-f23e-4b56-8b53-3ef5f9f6de66", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "fb0da285-f23e-4b56-8b53-3ef5f9f6de66", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9880,7 +9880,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     userId: userId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "e5cc8c09-407b-4867-8319-2ae3338cbf6f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "e5cc8c09-407b-4867-8319-2ae3338cbf6f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9916,7 +9916,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     state: state,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "aa93e1f3-511c-4364-8b9c-eb98818f2e0b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "aa93e1f3-511c-4364-8b9c-eb98818f2e0b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9937,7 +9937,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "216b978f-b164-424e-ada2-b77561e842b7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "216b978f-b164-424e-ada2-b77561e842b7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9971,7 +9971,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     state: state,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "ba93e1f3-511c-4364-8b9c-eb98818f2e0b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "ba93e1f3-511c-4364-8b9c-eb98818f2e0b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -9997,7 +9997,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "f5afca1e-a728-4294-aa2d-4af0173431b5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "f5afca1e-a728-4294-aa2d-4af0173431b5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10024,7 +10024,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "f5afca1e-a728-4294-aa2d-4af0173431b5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "f5afca1e-a728-4294-aa2d-4af0173431b5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10045,7 +10045,7 @@ class ExtensionManagementApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "ExtensionManagement", "3a2e24ed-1d6f-4cb2-9f3b-45a96bbfaf50", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "ExtensionManagement", "3a2e24ed-1d6f-4cb2-9f3b-45a96bbfaf50", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10107,7 +10107,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     featureId: featureId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "c4209f25-7a27-41dd-9f04-06080c7b6afd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "c4209f25-7a27-41dd-9f04-06080c7b6afd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10134,7 +10134,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     targetContributionId: targetContributionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "c4209f25-7a27-41dd-9f04-06080c7b6afd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "c4209f25-7a27-41dd-9f04-06080c7b6afd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10162,7 +10162,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     userScope: userScope
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "98911314-3f9b-4eaf-80e8-83900d8e85d9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "98911314-3f9b-4eaf-80e8-83900d8e85d9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10197,7 +10197,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     reasonCode: reasonCode,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "98911314-3f9b-4eaf-80e8-83900d8e85d9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "98911314-3f9b-4eaf-80e8-83900d8e85d9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10229,7 +10229,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     scopeValue: scopeValue
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "dd291e43-aa9f-4cee-8465-a93c78e414a4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "dd291e43-aa9f-4cee-8465-a93c78e414a4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10268,7 +10268,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     reasonCode: reasonCode,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "dd291e43-aa9f-4cee-8465-a93c78e414a4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "dd291e43-aa9f-4cee-8465-a93c78e414a4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10292,7 +10292,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "2b4486ad-122b-400c-ae65-17b6672c1f9d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "2b4486ad-122b-400c-ae65-17b6672c1f9d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10319,7 +10319,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     userScope: userScope
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "3f810f28-03e2-4239-b0bc-788add3005e5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "3f810f28-03e2-4239-b0bc-788add3005e5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10350,7 +10350,7 @@ class FeatureManagementApi extends basem.ClientApiBase {
                     scopeValue: scopeValue
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "FeatureManagement", "f29e997b-c2da-4d15-8380-765788a1a74c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "FeatureManagement", "f29e997b-c2da-4d15-8380-765788a1a74c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10659,7 +10659,7 @@ class FileContainerApiBase extends basem.ClientApiBase {
                     scope: scope,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10694,7 +10694,7 @@ class FileContainerApiBase extends basem.ClientApiBase {
                     scope: scope,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10723,7 +10723,7 @@ class FileContainerApiBase extends basem.ClientApiBase {
                     artifactUris: artifactUris,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10769,7 +10769,7 @@ class FileContainerApiBase extends basem.ClientApiBase {
                     saveAbsolutePath: saveAbsolutePath,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Container", "e4f5c81e-e250-447b-9fef-bd48471bea5e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10830,7 +10830,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     accountName: accountName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "1f19631b-a0b4-4a03-89c2-d79785d24360", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "1f19631b-a0b4-4a03-89c2-d79785d24360", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10856,7 +10856,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     accountName: accountName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "1f19631b-a0b4-4a03-89c2-d79785d24360", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "1f19631b-a0b4-4a03-89c2-d79785d24360", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10884,7 +10884,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     accountName: accountName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "a1e66d8f-f5de-4d16-8309-91a4e015ee46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "a1e66d8f-f5de-4d16-8309-91a4e015ee46", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10912,7 +10912,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     accountName: accountName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "a1e66d8f-f5de-4d16-8309-91a4e015ee46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "a1e66d8f-f5de-4d16-8309-91a4e015ee46", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10947,7 +10947,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     isFreeOrTrialInstall: isFreeOrTrialInstall,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "9d0a0105-075e-4760-aa15-8bcf54d1bd7d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "9d0a0105-075e-4760-aa15-8bcf54d1bd7d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -10969,7 +10969,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "3adb1f2d-e328-446e-be73-9f6d98071c45", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "3adb1f2d-e328-446e-be73-9f6d98071c45", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11008,7 +11008,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "7529171f-a002-4180-93ba-685f358a0482", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "7529171f-a002-4180-93ba-685f358a0482", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11043,7 +11043,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "5d545f3d-ef47-488b-8be3-f5ee1517856c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "5d545f3d-ef47-488b-8be3-f5ee1517856c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11078,7 +11078,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "506aff36-2622-4f70-8063-77cce6366d20", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "506aff36-2622-4f70-8063-77cce6366d20", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11107,7 +11107,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     azurePublisherId: azurePublisherId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "efd202a6-9d87-4ebc-9229-d2b8ae2fdb6d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "efd202a6-9d87-4ebc-9229-d2b8ae2fdb6d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11131,7 +11131,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     publisherName: publisherName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "efd202a6-9d87-4ebc-9229-d2b8ae2fdb6d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "efd202a6-9d87-4ebc-9229-d2b8ae2fdb6d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11156,7 +11156,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     languages: languages,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "e0a5a71e-3ac3-43a0-ae7d-0bb5c3046a2a", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "e0a5a71e-3ac3-43a0-ae7d-0bb5c3046a2a", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11186,7 +11186,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     product: product,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "75d3c04d-84d2-4973-acd2-22627587dabc", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "75d3c04d-84d2-4973-acd2-22627587dabc", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11226,7 +11226,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     productArchitecture: productArchitecture,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "1102bb42-82b0-4955-8d8a-435d6b4cedd3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "1102bb42-82b0-4955-8d8a-435d6b4cedd3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11262,7 +11262,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     subSkus: subSkus,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "31fba831-35b2-46f6-a641-d05de5a877d8", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "31fba831-35b2-46f6-a641-d05de5a877d8", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11290,7 +11290,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     version: version
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "e905ad6a-3f1f-4d08-9f6d-7d357ff8b7d0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "e905ad6a-3f1f-4d08-9f6d-7d357ff8b7d0", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11314,7 +11314,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "c0f1c7c4-3557-4ffb-b774-1e48c4865e99", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "c0f1c7c4-3557-4ffb-b774-1e48c4865e99", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11334,7 +11334,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "8eded385-026a-4c15-b810-b8eb402771f1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "8eded385-026a-4c15-b810-b8eb402771f1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11360,7 +11360,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "02b33873-4e61-496e-83a2-59d1df46b7d8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "02b33873-4e61-496e-83a2-59d1df46b7d8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11389,7 +11389,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     draftId: draftId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "02b33873-4e61-496e-83a2-59d1df46b7d8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "02b33873-4e61-496e-83a2-59d1df46b7d8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11422,7 +11422,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders["Content-Type"] = "application/octet-stream";
                 customHeaders["X-Market-UploadFileName"] = "fileName";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "02b33873-4e61-496e-83a2-59d1df46b7d8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "02b33873-4e61-496e-83a2-59d1df46b7d8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11456,7 +11456,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "f1db9c47-6619-4998-a7e5-d7f9f41a4617", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "f1db9c47-6619-4998-a7e5-d7f9f41a4617", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11488,7 +11488,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders["X-Market-UploadFileProduct"] = "product";
                 customHeaders["X-Market-UploadFileName"] = "fileName";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "b3ab127d-ebb9-4d22-b611-4e09593c8d79", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "b3ab127d-ebb9-4d22-b611-4e09593c8d79", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11516,7 +11516,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     draftId: draftId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "b3ab127d-ebb9-4d22-b611-4e09593c8d79", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "b3ab127d-ebb9-4d22-b611-4e09593c8d79", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11547,7 +11547,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders["Content-Type"] = "application/octet-stream";
                 customHeaders["X-Market-UploadFileName"] = "fileName";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "b3ab127d-ebb9-4d22-b611-4e09593c8d79", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "b3ab127d-ebb9-4d22-b611-4e09593c8d79", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11579,7 +11579,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "88c0b1c8-b4f1-498a-9b2a-8446ef9f32e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "88c0b1c8-b4f1-498a-9b2a-8446ef9f32e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11615,7 +11615,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     extensionName: extensionName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "88c0b1c8-b4f1-498a-9b2a-8446ef9f32e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "88c0b1c8-b4f1-498a-9b2a-8446ef9f32e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11641,7 +11641,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     assetType: assetType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "88c0b1c8-b4f1-498a-9b2a-8446ef9f32e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "88c0b1c8-b4f1-498a-9b2a-8446ef9f32e7", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -11677,7 +11677,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     includeProperty: includeProperty,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "3d13c499-2168-4d06-bef4-14aba185dcd5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "3d13c499-2168-4d06-bef4-14aba185dcd5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11701,7 +11701,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "0bf2bd3a-70e0-4d5d-8bf7-bd4a9c2ab6e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "0bf2bd3a-70e0-4d5d-8bf7-bd4a9c2ab6e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11730,7 +11730,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "eb9d5ee1-6d43-456b-b80e-8a96fbc014b6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "eb9d5ee1-6d43-456b-b80e-8a96fbc014b6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11761,7 +11761,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11790,7 +11790,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     version: version,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11820,7 +11820,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     flags: flags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11848,7 +11848,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     reCaptchaToken: reCaptchaToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "a41192c8-9525-4b58-bc86-179fa549d80d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11881,7 +11881,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11912,7 +11912,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     version: version,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -11949,7 +11949,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -11989,7 +11989,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -12023,7 +12023,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     flags: flags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "gallery", "e11ea35a-16fe-4b80-ab11-c4cab88a0966", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12053,7 +12053,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     hostName: hostName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "328a3af8-d124-46e9-9483-01690cd415b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "328a3af8-d124-46e9-9483-01690cd415b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12083,7 +12083,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     hostName: hostName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "328a3af8-d124-46e9-9483-01690cd415b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "328a3af8-d124-46e9-9483-01690cd415b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12105,7 +12105,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "05e8a5e1-8c59-4c2c-8856-0ff087d1a844", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "05e8a5e1-8c59-4c2c-8856-0ff087d1a844", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12129,7 +12129,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "eab39817-413c-4602-a49f-07ad00844980", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "eab39817-413c-4602-a49f-07ad00844980", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12168,7 +12168,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "7cb576f8-1cae-4c4b-b7b1-e4af5759e965", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "7cb576f8-1cae-4c4b-b7b1-e4af5759e965", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -12207,7 +12207,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders = customHeaders || {};
                 customHeaders["X-Market-AccountToken"] = "accountTokenHeader";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "364415a1-0077-4a41-a7a0-06edd4497492", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "364415a1-0077-4a41-a7a0-06edd4497492", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -12235,7 +12235,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     assetType: assetType,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "21143299-34f9-4c62-8ca8-53da691192f9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "21143299-34f9-4c62-8ca8-53da691192f9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12265,7 +12265,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     assetType: assetType,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "21143299-34f9-4c62-8ca8-53da691192f9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "21143299-34f9-4c62-8ca8-53da691192f9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -12298,7 +12298,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                 customHeaders["Content-Type"] = "application/octet-stream";
                 customHeaders["X-Market-UploadFileName"] = "fileName";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "21143299-34f9-4c62-8ca8-53da691192f9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "21143299-34f9-4c62-8ca8-53da691192f9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -12323,7 +12323,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     publisherName: publisherName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "67a609ef-fa74-4b52-8664-78d76f7b3634", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "67a609ef-fa74-4b52-8664-78d76f7b3634", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12347,7 +12347,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     publisherName: publisherName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "67a609ef-fa74-4b52-8664-78d76f7b3634", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "67a609ef-fa74-4b52-8664-78d76f7b3634", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12369,7 +12369,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "2ad6ee0a-b53f-4034-9d1d-d009fda1212e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "2ad6ee0a-b53f-4034-9d1d-d009fda1212e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12391,7 +12391,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12415,7 +12415,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     publisherName: publisherName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12443,7 +12443,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     flags: flags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12468,7 +12468,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     publisherName: publisherName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12499,7 +12499,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     limitToCallerIdentityDomain: limitToCallerIdentityDomain,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4ddec66a-e4f6-4f5d-999e-9e77710d7ff4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12535,7 +12535,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     afterDate: afterDate,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "c010d03d-812c-4ade-ae07-c1862475eda5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "c010d03d-812c-4ade-ae07-c1862475eda5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12566,7 +12566,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     questionId: questionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "784910cd-254a-494d-898b-0728549b2f10", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "784910cd-254a-494d-898b-0728549b2f10", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12595,7 +12595,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "6d1d9741-eca8-4701-a3a5-235afc82dfa4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "6d1d9741-eca8-4701-a3a5-235afc82dfa4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12625,7 +12625,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     questionId: questionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "6d1d9741-eca8-4701-a3a5-235afc82dfa4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "6d1d9741-eca8-4701-a3a5-235afc82dfa4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12656,7 +12656,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     questionId: questionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "6d1d9741-eca8-4701-a3a5-235afc82dfa4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "6d1d9741-eca8-4701-a3a5-235afc82dfa4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12687,7 +12687,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     questionId: questionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "7f8ae5e0-46b0-438f-b2e8-13e8513517bd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "7f8ae5e0-46b0-438f-b2e8-13e8513517bd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12719,7 +12719,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     responseId: responseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "7f8ae5e0-46b0-438f-b2e8-13e8513517bd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "7f8ae5e0-46b0-438f-b2e8-13e8513517bd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12752,7 +12752,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     responseId: responseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "7f8ae5e0-46b0-438f-b2e8-13e8513517bd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "7f8ae5e0-46b0-438f-b2e8-13e8513517bd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12788,7 +12788,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     afterDate: afterDate,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "79e0c74f-157f-437e-845f-74fbb4121d4c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "79e0c74f-157f-437e-845f-74fbb4121d4c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12826,7 +12826,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     afterDate: afterDate,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "5b3f819f-f247-42ad-8c00-dd9ab9ab246d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "5b3f819f-f247-42ad-8c00-dd9ab9ab246d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12860,7 +12860,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     afterDate: afterDate,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "b7b44e21-209e-48f0-ae78-04727fc37d77", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "b7b44e21-209e-48f0-ae78-04727fc37d77", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12889,7 +12889,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     extName: extName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "e6e85b9d-aa70-40e6-aa28-d0fbf40b91a3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "e6e85b9d-aa70-40e6-aa28-d0fbf40b91a3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12919,7 +12919,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     reviewId: reviewId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "e6e85b9d-aa70-40e6-aa28-d0fbf40b91a3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "e6e85b9d-aa70-40e6-aa28-d0fbf40b91a3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12950,7 +12950,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     reviewId: reviewId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "e6e85b9d-aa70-40e6-aa28-d0fbf40b91a3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "e6e85b9d-aa70-40e6-aa28-d0fbf40b91a3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -12972,7 +12972,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "476531a3-7024-4516-a76a-ed64d3008ad6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "476531a3-7024-4516-a76a-ed64d3008ad6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13000,7 +13000,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     key: key
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "9b75ece3-7960-401c-848b-148ac01ca350", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "9b75ece3-7960-401c-848b-148ac01ca350", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13027,7 +13027,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     userScope: userScope
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "9b75ece3-7960-401c-848b-148ac01ca350", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "9b75ece3-7960-401c-848b-148ac01ca350", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13055,7 +13055,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     expireCurrentSeconds: expireCurrentSeconds,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "92ed5cf4-c38b-465a-9059-2f2fb7c624b5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "92ed5cf4-c38b-465a-9059-2f2fb7c624b5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13079,7 +13079,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     keyType: keyType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "92ed5cf4-c38b-465a-9059-2f2fb7c624b5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "92ed5cf4-c38b-465a-9059-2f2fb7c624b5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13106,7 +13106,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     extensionName: extensionName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "a0ea3204-11e9-422d-a9ca-45851cc41400", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "a0ea3204-11e9-422d-a9ca-45851cc41400", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13140,7 +13140,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     afterDate: afterDate,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "ae06047e-51c5-4fb4-ab65-7be488544416", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "ae06047e-51c5-4fb4-ab65-7be488544416", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13170,7 +13170,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     version: version
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4fa7adb6-ca65-4075-a232-5f28323288ea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4fa7adb6-ca65-4075-a232-5f28323288ea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13209,7 +13209,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     targetPlatform: targetPlatform,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "4fa7adb6-ca65-4075-a232-5f28323288ea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "4fa7adb6-ca65-4075-a232-5f28323288ea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13241,7 +13241,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     targetPlatform: targetPlatform,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "c5523abe-b843-437f-875b-5833064efe4d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "c5523abe-b843-437f-875b-5833064efe4d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -13267,7 +13267,7 @@ class GalleryApi extends compatBase.GalleryCompatHttpClientBase {
                     statType: statType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "gallery", "205c91a8-7841-4fd3-ae4f-5a745d5a8df5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "gallery", "205c91a8-7841-4fd3-ae4f-5a745d5a8df5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13458,7 +13458,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "5e8a8081-3851-4626-b677-9891cc04102e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "5e8a8081-3851-4626-b677-9891cc04102e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13488,7 +13488,7 @@ class GitApi extends basem.ClientApiBase {
                     objectId: objectId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "5e8a8081-3851-4626-b677-9891cc04102e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "5e8a8081-3851-4626-b677-9891cc04102e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13526,7 +13526,7 @@ class GitApi extends basem.ClientApiBase {
                     resolveLfs: resolveLfs,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13564,7 +13564,7 @@ class GitApi extends basem.ClientApiBase {
                     resolveLfs: resolveLfs,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -13595,7 +13595,7 @@ class GitApi extends basem.ClientApiBase {
                     filename: filename,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -13631,7 +13631,7 @@ class GitApi extends basem.ClientApiBase {
                     resolveLfs: resolveLfs,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "7b28e929-2c99-405d-9c5c-6167a06e6816", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -13666,7 +13666,7 @@ class GitApi extends basem.ClientApiBase {
                     baseVersionDescriptor: baseVersionDescriptor,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d5b216de-d8d5-4d32-ae76-51df755b16d3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d5b216de-d8d5-4d32-ae76-51df755b16d3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13698,7 +13698,7 @@ class GitApi extends basem.ClientApiBase {
                     baseVersionDescriptor: baseVersionDescriptor,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d5b216de-d8d5-4d32-ae76-51df755b16d3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d5b216de-d8d5-4d32-ae76-51df755b16d3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13725,7 +13725,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d5b216de-d8d5-4d32-ae76-51df755b16d3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d5b216de-d8d5-4d32-ae76-51df755b16d3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13761,7 +13761,7 @@ class GitApi extends basem.ClientApiBase {
                     skip: skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "5bf884f5-3e07-42e9-afb8-1b872267bf16", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "5bf884f5-3e07-42e9-afb8-1b872267bf16", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13793,7 +13793,7 @@ class GitApi extends basem.ClientApiBase {
                     conflictId: conflictId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13835,7 +13835,7 @@ class GitApi extends basem.ClientApiBase {
                     includeObsolete: includeObsolete,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13868,7 +13868,7 @@ class GitApi extends basem.ClientApiBase {
                     conflictId: conflictId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13899,7 +13899,7 @@ class GitApi extends basem.ClientApiBase {
                     cherryPickId: cherryPickId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1fe5aab2-d4c0-4b2f-a030-f3831e7aca26", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13933,7 +13933,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "8af142a4-27c2-4168-9e82-46b8629aaa0d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "8af142a4-27c2-4168-9e82-46b8629aaa0d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13962,7 +13962,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "033bad68-9a14-43d1-90e0-59cb8856fef6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "033bad68-9a14-43d1-90e0-59cb8856fef6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -13992,7 +13992,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "033bad68-9a14-43d1-90e0-59cb8856fef6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "033bad68-9a14-43d1-90e0-59cb8856fef6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14027,7 +14027,7 @@ class GitApi extends basem.ClientApiBase {
                     refName: refName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "033bad68-9a14-43d1-90e0-59cb8856fef6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "033bad68-9a14-43d1-90e0-59cb8856fef6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14075,7 +14075,7 @@ class GitApi extends basem.ClientApiBase {
                     queryValues.targetVersionOptions = targetVersionDescriptor.versionOptions;
                 }
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "615588d5-c0c7-4b88-88f8-e625306446e8", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "615588d5-c0c7-4b88-88f8-e625306446e8", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14109,7 +14109,7 @@ class GitApi extends basem.ClientApiBase {
                     changeCount: changeCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "c2570c3b-5b3f-41b8-98bf-5407bfde8d58", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "c2570c3b-5b3f-41b8-98bf-5407bfde8d58", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14148,7 +14148,7 @@ class GitApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "c2570c3b-5b3f-41b8-98bf-5407bfde8d58", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "c2570c3b-5b3f-41b8-98bf-5407bfde8d58", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14189,7 +14189,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "c2570c3b-5b3f-41b8-98bf-5407bfde8d58", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "c2570c3b-5b3f-41b8-98bf-5407bfde8d58", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14226,7 +14226,7 @@ class GitApi extends basem.ClientApiBase {
                     includeStatuses: includeStatuses,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "6400dfb2-0bcb-462b-b992-5a57f8f1416c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "6400dfb2-0bcb-462b-b992-5a57f8f1416c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14252,7 +14252,7 @@ class GitApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "2b6869c4-cb25-42b5-b7a3-0d3e6be0a11a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "2b6869c4-cb25-42b5-b7a3-0d3e6be0a11a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14281,7 +14281,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "c4c5a7e6-e9f3-4730-a92b-84baacff694b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "c4c5a7e6-e9f3-4730-a92b-84baacff694b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14315,7 +14315,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "158c0340-bf6f-489c-9625-d572a1480d57", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "158c0340-bf6f-489c-9625-d572a1480d57", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14348,7 +14348,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1703f858-b9d1-46af-ab62-483e9e1055b5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1703f858-b9d1-46af-ab62-483e9e1055b5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14382,7 +14382,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1703f858-b9d1-46af-ab62-483e9e1055b5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1703f858-b9d1-46af-ab62-483e9e1055b5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14416,7 +14416,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "1703f858-b9d1-46af-ab62-483e9e1055b5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "1703f858-b9d1-46af-ab62-483e9e1055b5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14445,7 +14445,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14475,7 +14475,7 @@ class GitApi extends basem.ClientApiBase {
                     importRequestId: importRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14507,7 +14507,7 @@ class GitApi extends basem.ClientApiBase {
                     includeAbandoned: includeAbandoned,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14538,7 +14538,7 @@ class GitApi extends basem.ClientApiBase {
                     importRequestId: importRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "01828ddc-3600-4a41-8633-99b3a73a0eb3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14591,7 +14591,7 @@ class GitApi extends basem.ClientApiBase {
                     sanitize: sanitize,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14644,7 +14644,7 @@ class GitApi extends basem.ClientApiBase {
                     sanitize: sanitize,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -14686,7 +14686,7 @@ class GitApi extends basem.ClientApiBase {
                     versionDescriptor: versionDescriptor,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14739,7 +14739,7 @@ class GitApi extends basem.ClientApiBase {
                     sanitize: sanitize,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -14790,7 +14790,7 @@ class GitApi extends basem.ClientApiBase {
                     sanitize: sanitize,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "fb93c0db-47ed-4a31-8c20-47552878fb44", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -14817,7 +14817,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "630fd2e4-fb88-4f85-ad21-13f3fd1fbca9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "630fd2e4-fb88-4f85-ad21-13f3fd1fbca9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14858,7 +14858,7 @@ class GitApi extends basem.ClientApiBase {
                     otherRepositoryId: otherRepositoryId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "7cf2abb6-c964-4f7e-9872-f78c66e72e9c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "7cf2abb6-c964-4f7e-9872-f78c66e72e9c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14891,7 +14891,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "985f7ae9-844f-4906-9897-7ef41516c0e2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "985f7ae9-844f-4906-9897-7ef41516c0e2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14925,7 +14925,7 @@ class GitApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "985f7ae9-844f-4906-9897-7ef41516c0e2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "985f7ae9-844f-4906-9897-7ef41516c0e2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -14960,7 +14960,7 @@ class GitApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -14993,7 +14993,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15025,7 +15025,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -15053,7 +15053,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15085,7 +15085,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965d9361-878b-413b-a494-45d5b5fd8ab7", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -15117,7 +15117,7 @@ class GitApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "5f2e2851-1389-425b-a00b-fb2adb3ef31b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "5f2e2851-1389-425b-a00b-fb2adb3ef31b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15151,7 +15151,7 @@ class GitApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "5f2e2851-1389-425b-a00b-fb2adb3ef31b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "5f2e2851-1389-425b-a00b-fb2adb3ef31b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15185,7 +15185,7 @@ class GitApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "5f2e2851-1389-425b-a00b-fb2adb3ef31b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "5f2e2851-1389-425b-a00b-fb2adb3ef31b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15223,7 +15223,7 @@ class GitApi extends basem.ClientApiBase {
                     skip: skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "e7ea0883-095f-4926-b5fb-f24691c26fb9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "e7ea0883-095f-4926-b5fb-f24691c26fb9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15253,7 +15253,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "52823034-34a8-4576-922c-8d8b77e9e4c4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "52823034-34a8-4576-922c-8d8b77e9e4c4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15285,7 +15285,7 @@ class GitApi extends basem.ClientApiBase {
                     conflictId: conflictId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15327,7 +15327,7 @@ class GitApi extends basem.ClientApiBase {
                     onlyResolved: onlyResolved,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15360,7 +15360,7 @@ class GitApi extends basem.ClientApiBase {
                     conflictId: conflictId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15391,7 +15391,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d840fb74-bbef-42d3-b250-564604c054a4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15431,7 +15431,7 @@ class GitApi extends basem.ClientApiBase {
                     '$compareTo': compareTo,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4216bdcf-b6b1-4d59-8b82-c34cc183fc8b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4216bdcf-b6b1-4d59-8b82-c34cc183fc8b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15463,7 +15463,7 @@ class GitApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d43911ee-6958-46b0-a42b-8445b8a0d004", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d43911ee-6958-46b0-a42b-8445b8a0d004", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15497,7 +15497,7 @@ class GitApi extends basem.ClientApiBase {
                     includeCommits: includeCommits,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "d43911ee-6958-46b0-a42b-8445b8a0d004", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "d43911ee-6958-46b0-a42b-8445b8a0d004", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15530,7 +15530,7 @@ class GitApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15564,7 +15564,7 @@ class GitApi extends basem.ClientApiBase {
                     statusId: statusId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15598,7 +15598,7 @@ class GitApi extends basem.ClientApiBase {
                     statusId: statusId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15630,7 +15630,7 @@ class GitApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15665,7 +15665,7 @@ class GitApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "75cf11c5-979f-4038-a76e-058a06adf2bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -15701,7 +15701,7 @@ class GitApi extends basem.ClientApiBase {
                     projectId: projectId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15737,7 +15737,7 @@ class GitApi extends basem.ClientApiBase {
                     projectId: projectId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15773,7 +15773,7 @@ class GitApi extends basem.ClientApiBase {
                     projectId: projectId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15807,7 +15807,7 @@ class GitApi extends basem.ClientApiBase {
                     projectId: projectId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "f22387e3-984e-4c52-9c6d-fbb8f14c812d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15837,7 +15837,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "48a52185-5b9e-4736-9dc1-bb1e2feac80b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "48a52185-5b9e-4736-9dc1-bb1e2feac80b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15870,7 +15870,7 @@ class GitApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "48a52185-5b9e-4736-9dc1-bb1e2feac80b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "48a52185-5b9e-4736-9dc1-bb1e2feac80b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -15900,7 +15900,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "b3a6eebe-9cf0-49ea-b6cb-1a4c5f5007b0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "b3a6eebe-9cf0-49ea-b6cb-1a4c5f5007b0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15933,7 +15933,7 @@ class GitApi extends basem.ClientApiBase {
                     reviewerId: reviewerId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15964,7 +15964,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -15995,7 +15995,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16027,7 +16027,7 @@ class GitApi extends basem.ClientApiBase {
                     reviewerId: reviewerId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16059,7 +16059,7 @@ class GitApi extends basem.ClientApiBase {
                     reviewerId: reviewerId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16089,7 +16089,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16122,7 +16122,7 @@ class GitApi extends basem.ClientApiBase {
                     reviewerId: reviewerId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16153,7 +16153,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "4b6702c7-aa35-4b89-9c96-b9abf6d3e540", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16181,7 +16181,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "01a46dea-7d46-4d40-bc84-319e7c260d99", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "01a46dea-7d46-4d40-bc84-319e7c260d99", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16220,7 +16220,7 @@ class GitApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "a5d28130-9cd2-40fa-9f08-902e7daa9efb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "a5d28130-9cd2-40fa-9f08-902e7daa9efb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16253,7 +16253,7 @@ class GitApi extends basem.ClientApiBase {
                     supportsIterations: supportsIterations,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16295,7 +16295,7 @@ class GitApi extends basem.ClientApiBase {
                     includeWorkItemRefs: includeWorkItemRefs,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16336,7 +16336,7 @@ class GitApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16367,7 +16367,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "9946fd70-0d40-406e-b686-b4744cbbcc37", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16398,7 +16398,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "696f3a82-47c9-487f-9117-b9d00972ca84", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "696f3a82-47c9-487f-9117-b9d00972ca84", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16429,7 +16429,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16461,7 +16461,7 @@ class GitApi extends basem.ClientApiBase {
                     statusId: statusId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16493,7 +16493,7 @@ class GitApi extends basem.ClientApiBase {
                     statusId: statusId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16523,7 +16523,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16556,7 +16556,7 @@ class GitApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "b5f6bb4f-8d1e-4d79-8d11-4c9172c99c35", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -16590,7 +16590,7 @@ class GitApi extends basem.ClientApiBase {
                     threadId: threadId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16624,7 +16624,7 @@ class GitApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16658,7 +16658,7 @@ class GitApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16690,7 +16690,7 @@ class GitApi extends basem.ClientApiBase {
                     threadId: threadId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16725,7 +16725,7 @@ class GitApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "965a3ec7-5ed8-455a-bdcb-835a5ea7fe7b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16756,7 +16756,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16794,7 +16794,7 @@ class GitApi extends basem.ClientApiBase {
                     '$baseIteration': baseIteration,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16830,7 +16830,7 @@ class GitApi extends basem.ClientApiBase {
                     '$baseIteration': baseIteration,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16863,7 +16863,7 @@ class GitApi extends basem.ClientApiBase {
                     threadId: threadId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "ab6e2e5d-a0b7-4153-b64a-a4efe0d49449", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16893,7 +16893,7 @@ class GitApi extends basem.ClientApiBase {
                     pullRequestId: pullRequestId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "0a637fcc-5370-4ce8-b0e8-98091f5f9482", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "0a637fcc-5370-4ce8-b0e8-98091f5f9482", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16922,7 +16922,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "git", "ea98d07b-3c87-4971-8ede-a613694ffb55", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "git", "ea98d07b-3c87-4971-8ede-a613694ffb55", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16958,7 +16958,7 @@ class GitApi extends basem.ClientApiBase {
                     includeRefUpdates: includeRefUpdates,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "git", "ea98d07b-3c87-4971-8ede-a613694ffb55", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "git", "ea98d07b-3c87-4971-8ede-a613694ffb55", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -16994,7 +16994,7 @@ class GitApi extends basem.ClientApiBase {
                     searchCriteria: searchCriteria,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "git", "ea98d07b-3c87-4971-8ede-a613694ffb55", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "git", "ea98d07b-3c87-4971-8ede-a613694ffb55", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17022,7 +17022,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "a663da97-81db-4eb3-8b83-287670f63073", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "a663da97-81db-4eb3-8b83-287670f63073", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17048,7 +17048,7 @@ class GitApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "a663da97-81db-4eb3-8b83-287670f63073", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "a663da97-81db-4eb3-8b83-287670f63073", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17077,7 +17077,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "a663da97-81db-4eb3-8b83-287670f63073", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "a663da97-81db-4eb3-8b83-287670f63073", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17121,7 +17121,7 @@ class GitApi extends basem.ClientApiBase {
                     filterContains: filterContains,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "2d874a60-a811-4f62-9c9f-963a6ea0a55b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "2d874a60-a811-4f62-9c9f-963a6ea0a55b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17159,7 +17159,7 @@ class GitApi extends basem.ClientApiBase {
                     projectId: projectId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "2d874a60-a811-4f62-9c9f-963a6ea0a55b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "2d874a60-a811-4f62-9c9f-963a6ea0a55b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17192,7 +17192,7 @@ class GitApi extends basem.ClientApiBase {
                     projectId: projectId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "2d874a60-a811-4f62-9c9f-963a6ea0a55b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "2d874a60-a811-4f62-9c9f-963a6ea0a55b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17219,7 +17219,7 @@ class GitApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17247,7 +17247,7 @@ class GitApi extends basem.ClientApiBase {
                     favoriteId: favoriteId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17275,7 +17275,7 @@ class GitApi extends basem.ClientApiBase {
                     favoriteId: favoriteId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17307,7 +17307,7 @@ class GitApi extends basem.ClientApiBase {
                     identityId: identityId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "876f70af-5792-485a-a1c7-d0a7b2f42bbb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17338,7 +17338,7 @@ class GitApi extends basem.ClientApiBase {
                     sourceRef: sourceRef,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17366,7 +17366,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17400,7 +17400,7 @@ class GitApi extends basem.ClientApiBase {
                     includeHidden: includeHidden,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17428,7 +17428,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17463,7 +17463,7 @@ class GitApi extends basem.ClientApiBase {
                     includeParent: includeParent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17492,7 +17492,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "225f7195-f9c7-4d14-ab28-a83f7ff77e1f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17524,7 +17524,7 @@ class GitApi extends basem.ClientApiBase {
                     conflictId: conflictId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17566,7 +17566,7 @@ class GitApi extends basem.ClientApiBase {
                     includeObsolete: includeObsolete,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17599,7 +17599,7 @@ class GitApi extends basem.ClientApiBase {
                     conflictId: conflictId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17630,7 +17630,7 @@ class GitApi extends basem.ClientApiBase {
                     revertId: revertId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "10d7ae6d-1050-446d-852a-bd5d99f834bf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17659,7 +17659,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "bc866058-5449-4715-9cf1-a510b6ff193c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "bc866058-5449-4715-9cf1-a510b6ff193c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17689,7 +17689,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "bc866058-5449-4715-9cf1-a510b6ff193c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "bc866058-5449-4715-9cf1-a510b6ff193c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17724,7 +17724,7 @@ class GitApi extends basem.ClientApiBase {
                     refName: refName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "bc866058-5449-4715-9cf1-a510b6ff193c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "bc866058-5449-4715-9cf1-a510b6ff193c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17755,7 +17755,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "428dd4fb-fda5-4722-af02-9313b80305da", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "428dd4fb-fda5-4722-af02-9313b80305da", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17793,7 +17793,7 @@ class GitApi extends basem.ClientApiBase {
                     latestOnly: latestOnly,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "428dd4fb-fda5-4722-af02-9313b80305da", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "428dd4fb-fda5-4722-af02-9313b80305da", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17821,7 +17821,7 @@ class GitApi extends basem.ClientApiBase {
                     repositoryId: repositoryId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "9393b4fb-4445-4919-972b-9ad16f442d83", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "9393b4fb-4445-4919-972b-9ad16f442d83", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17859,7 +17859,7 @@ class GitApi extends basem.ClientApiBase {
                     fileName: fileName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "729f6437-6f92-44ec-8bee-273a7111063c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "729f6437-6f92-44ec-8bee-273a7111063c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17897,7 +17897,7 @@ class GitApi extends basem.ClientApiBase {
                     fileName: fileName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "git", "729f6437-6f92-44ec-8bee-273a7111063c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "git", "729f6437-6f92-44ec-8bee-273a7111063c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -17962,7 +17962,7 @@ class LocationsApi extends basem.ClientApiBase {
                     lastChangeId64: lastChangeId64,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "00d9565f-ed9c-4a06-9a50-00e7896ccab4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "00d9565f-ed9c-4a06-9a50-00e7896ccab4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -17992,7 +17992,7 @@ class LocationsApi extends basem.ClientApiBase {
                     organizationName: organizationName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18023,7 +18023,7 @@ class LocationsApi extends basem.ClientApiBase {
                     hostId: hostId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18050,7 +18050,7 @@ class LocationsApi extends basem.ClientApiBase {
                     organizationName: organizationName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18078,7 +18078,7 @@ class LocationsApi extends basem.ClientApiBase {
                     hostId: hostId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "e81700f7-3be2-46de-8624-2eb35882fcaa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18104,7 +18104,7 @@ class LocationsApi extends basem.ClientApiBase {
                     identifier: identifier
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18138,7 +18138,7 @@ class LocationsApi extends basem.ClientApiBase {
                     previewFaultIn: previewFaultIn,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18162,7 +18162,7 @@ class LocationsApi extends basem.ClientApiBase {
                     serviceType: serviceType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18184,7 +18184,7 @@ class LocationsApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Location", "d810a47d-f4f4-4a62-a03f-fa1860585c4c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18242,7 +18242,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "8f3c6ab2-5bae-4537-b16e-f84e0955599e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "8f3c6ab2-5bae-4537-b16e-f84e0955599e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18276,7 +18276,7 @@ class NotificationApi extends basem.ClientApiBase {
                     endTime: endTime,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "991842f3-eb16-4aea-ac81-81353ef2b75c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "991842f3-eb16-4aea-ac81-81353ef2b75c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18302,7 +18302,7 @@ class NotificationApi extends basem.ClientApiBase {
                     subscriptionId: subscriptionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "20f1929d-4be7-4c2e-a74e-d47640ff3418", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "20f1929d-4be7-4c2e-a74e-d47640ff3418", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18329,7 +18329,7 @@ class NotificationApi extends basem.ClientApiBase {
                     subscriptionId: subscriptionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "20f1929d-4be7-4c2e-a74e-d47640ff3418", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "20f1929d-4be7-4c2e-a74e-d47640ff3418", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18353,7 +18353,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "14c57b7a-c0e6-4555-9f51-e067188fdd8e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "14c57b7a-c0e6-4555-9f51-e067188fdd8e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18377,7 +18377,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "9463a800-1b44-450e-9083-f948ea174b45", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "9463a800-1b44-450e-9083-f948ea174b45", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18402,7 +18402,7 @@ class NotificationApi extends basem.ClientApiBase {
                     eventType: eventType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "b5bbdd21-c178-4398-b6db-0166d910028a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "b5bbdd21-c178-4398-b6db-0166d910028a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18428,7 +18428,7 @@ class NotificationApi extends basem.ClientApiBase {
                     eventType: eventType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "cc84fb5f-6247-4c7a-aeae-e5a3c3fddb21", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "cc84fb5f-6247-4c7a-aeae-e5a3c3fddb21", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18455,7 +18455,7 @@ class NotificationApi extends basem.ClientApiBase {
                     publisherId: publisherId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "cc84fb5f-6247-4c7a-aeae-e5a3c3fddb21", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "cc84fb5f-6247-4c7a-aeae-e5a3c3fddb21", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18479,7 +18479,7 @@ class NotificationApi extends basem.ClientApiBase {
                     notificationId: notificationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "19824fa9-1c76-40e6-9cce-cf0b9ca1cb60", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "19824fa9-1c76-40e6-9cce-cf0b9ca1cb60", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18504,7 +18504,7 @@ class NotificationApi extends basem.ClientApiBase {
                     notificationIds: notificationIds,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "19824fa9-1c76-40e6-9cce-cf0b9ca1cb60", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "19824fa9-1c76-40e6-9cce-cf0b9ca1cb60", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18525,7 +18525,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "cbe076d8-2803-45ff-8d8d-44653686ea2a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "cbe076d8-2803-45ff-8d8d-44653686ea2a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18547,7 +18547,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "cbe076d8-2803-45ff-8d8d-44653686ea2a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "cbe076d8-2803-45ff-8d8d-44653686ea2a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18573,7 +18573,7 @@ class NotificationApi extends basem.ClientApiBase {
                     subscriberId: subscriberId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "4d5caff1-25ba-430b-b808-7a1f352cc197", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "4d5caff1-25ba-430b-b808-7a1f352cc197", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18600,7 +18600,7 @@ class NotificationApi extends basem.ClientApiBase {
                     subscriberId: subscriberId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "4d5caff1-25ba-430b-b808-7a1f352cc197", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "4d5caff1-25ba-430b-b808-7a1f352cc197", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18624,7 +18624,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "6864db85-08c0-4006-8e8e-cc1bebe31675", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "6864db85-08c0-4006-8e8e-cc1bebe31675", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18648,7 +18648,7 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18674,7 +18674,7 @@ class NotificationApi extends basem.ClientApiBase {
                     subscriptionId: subscriptionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18704,7 +18704,7 @@ class NotificationApi extends basem.ClientApiBase {
                     queryFlags: queryFlags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18735,7 +18735,7 @@ class NotificationApi extends basem.ClientApiBase {
                     queryFlags: queryFlags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18762,7 +18762,7 @@ class NotificationApi extends basem.ClientApiBase {
                     subscriptionId: subscriptionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "70f911d6-abac-488c-85b3-a206bf57e165", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18785,12 +18785,36 @@ class NotificationApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "fa5d24ba-7484-4f3d-888d-4ec6b1974082", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "fa5d24ba-7484-4f3d-888d-4ec6b1974082", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
                     res = yield this.rest.get(url, options);
                     let ret = this.formatResponse(res.result, NotificationInterfaces.TypeInfo.NotificationSubscriptionTemplate, true);
+                    resolve(ret);
+                }
+                catch (err) {
+                    reject(err);
+                }
+            }));
+        });
+    }
+    /**
+     * Publish an event. This request is only for the Token service since it's a deploy only service.
+     *
+     * @param {VSSInterfaces.VssNotificationEvent} notificationEvent
+     */
+    publishTokenEvent(notificationEvent) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
+                let routeValues = {};
+                try {
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "31dc86a2-67e8-4452-99a4-2b301ba28291", routeValues);
+                    let url = verData.requestUrl;
+                    let options = this.createRequestOptions('application/json', verData.apiVersion);
+                    let res;
+                    res = yield this.rest.create(url, notificationEvent, options);
+                    let ret = this.formatResponse(res.result, VSSInterfaces.TypeInfo.VssNotificationEvent, false);
                     resolve(ret);
                 }
                 catch (err) {
@@ -18814,7 +18838,7 @@ class NotificationApi extends basem.ClientApiBase {
                     userId: userId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "notification", "ed5a3dff-aeb5-41b1-b4f7-89e66e58b62e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "notification", "ed5a3dff-aeb5-41b1-b4f7-89e66e58b62e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18878,7 +18902,7 @@ class PolicyApi extends basem.ClientApiBase {
                     configurationId: configurationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18906,7 +18930,7 @@ class PolicyApi extends basem.ClientApiBase {
                     configurationId: configurationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18934,7 +18958,7 @@ class PolicyApi extends basem.ClientApiBase {
                     configurationId: configurationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18966,7 +18990,7 @@ class PolicyApi extends basem.ClientApiBase {
                     policyType: policyType,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -18995,7 +19019,7 @@ class PolicyApi extends basem.ClientApiBase {
                     configurationId: configurationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "dad91cbe-d183-45f8-9c6e-9c1164472121", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19023,7 +19047,7 @@ class PolicyApi extends basem.ClientApiBase {
                     evaluationId: evaluationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "46aecb7a-5d2c-4647-897b-0209505a9fe4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "46aecb7a-5d2c-4647-897b-0209505a9fe4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19051,7 +19075,7 @@ class PolicyApi extends basem.ClientApiBase {
                     evaluationId: evaluationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "46aecb7a-5d2c-4647-897b-0209505a9fe4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "46aecb7a-5d2c-4647-897b-0209505a9fe4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19090,7 +19114,7 @@ class PolicyApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "c23ddff5-229c-4d04-a80b-0fdce9f360c8", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "c23ddff5-229c-4d04-a80b-0fdce9f360c8", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19120,7 +19144,7 @@ class PolicyApi extends basem.ClientApiBase {
                     revisionId: revisionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "fe1e68a2-60d3-43cb-855b-85e41ae97c95", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "fe1e68a2-60d3-43cb-855b-85e41ae97c95", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19154,7 +19178,7 @@ class PolicyApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "fe1e68a2-60d3-43cb-855b-85e41ae97c95", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "fe1e68a2-60d3-43cb-855b-85e41ae97c95", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19182,7 +19206,7 @@ class PolicyApi extends basem.ClientApiBase {
                     typeId: typeId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "44096322-2d3d-466a-bb30-d1b7de69f61f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "44096322-2d3d-466a-bb30-d1b7de69f61f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19208,7 +19232,7 @@ class PolicyApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "policy", "44096322-2d3d-466a-bb30-d1b7de69f61f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "policy", "44096322-2d3d-466a-bb30-d1b7de69f61f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19770,7 +19794,7 @@ class ProjectAnalysisApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "projectanalysis", "5b02a779-1867-433f-90b7-d23ed5e33e57", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "projectanalysis", "5b02a779-1867-433f-90b7-d23ed5e33e57", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19806,7 +19830,7 @@ class ProjectAnalysisApi extends basem.ClientApiBase {
                     aggregationType: aggregationType,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "projectanalysis", "e40ae584-9ea6-4f06-a7c7-6284651b466b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "projectanalysis", "e40ae584-9ea6-4f06-a7c7-6284651b466b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19854,7 +19878,7 @@ class ProjectAnalysisApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "projectanalysis", "df7fbbca-630a-40e3-8aa3-7a3faf66947e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "projectanalysis", "df7fbbca-630a-40e3-8aa3-7a3faf66947e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19892,7 +19916,7 @@ class ProjectAnalysisApi extends basem.ClientApiBase {
                     aggregationType: aggregationType,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "projectanalysis", "df7fbbca-630a-40e3-8aa3-7a3faf66947e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "projectanalysis", "df7fbbca-630a-40e3-8aa3-7a3faf66947e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -19956,7 +19980,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "f2571c27-bf50-4938-b396-32d109ddef26", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "f2571c27-bf50-4938-b396-32d109ddef26", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20000,7 +20024,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     includeMyGroupApprovals: includeMyGroupApprovals,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Release", "b47c6458-e73b-47cb-a770-4df1e8813a91", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Release", "b47c6458-e73b-47cb-a770-4df1e8813a91", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20028,7 +20052,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     approvalStepId: approvalStepId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Release", "250c7158-852e-4130-a00f-a0cce9b72d05", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Release", "250c7158-852e-4130-a00f-a0cce9b72d05", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20060,7 +20084,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     includeHistory: includeHistory,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Release", "9328e074-59fb-465a-89d9-b09c82ee5109", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Release", "9328e074-59fb-465a-89d9-b09c82ee5109", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20089,7 +20113,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     approvalId: approvalId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Release", "9328e074-59fb-465a-89d9-b09c82ee5109", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Release", "9328e074-59fb-465a-89d9-b09c82ee5109", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20114,7 +20138,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Release", "c957584a-82aa-4131-8222-6d47f78bfa7a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Release", "c957584a-82aa-4131-8222-6d47f78bfa7a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20154,7 +20178,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c4071f6d-3697-46ca-858e-8b10ff09e52f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c4071f6d-3697-46ca-858e-8b10ff09e52f", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -20194,7 +20218,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "60b86efb-7b8c-4853-8f9f-aa142b77b479", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "60b86efb-7b8c-4853-8f9f-aa142b77b479", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -20228,7 +20252,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "214111ee-2415-4df2-8ed2-74417f7d61f9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "214111ee-2415-4df2-8ed2-74417f7d61f9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20264,7 +20288,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "a4d06688-0dfa-4895-82a5-f43ec9452306", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "a4d06688-0dfa-4895-82a5-f43ec9452306", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20305,7 +20329,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     artifactVersionId: artifactVersionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c1a68497-69da-40fb-9423-cab19cfeeca9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c1a68497-69da-40fb-9423-cab19cfeeca9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20337,7 +20361,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     branchName: branchName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "1a60a35d-b8c9-45fb-bf67-da0829711147", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "1a60a35d-b8c9-45fb-bf67-da0829711147", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20371,7 +20395,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     artifactAlias: artifactAlias,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "8dcf9fe9-ca37-4113-8ee1-37928e98407c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "8dcf9fe9-ca37-4113-8ee1-37928e98407c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20401,7 +20425,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     propertyFilters: propertyFilters && propertyFilters.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "12b5d21a-f54c-430e-a8c1-7515d196890e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "12b5d21a-f54c-430e-a8c1-7515d196890e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20428,7 +20452,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20462,7 +20486,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     forceDelete: forceDelete,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20494,7 +20518,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     propertyFilters: propertyFilters && propertyFilters.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20529,7 +20553,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     revision: revision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -20583,7 +20607,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     searchTextContainsFolderName: searchTextContainsFolderName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20612,7 +20636,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20639,7 +20663,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "d8f96f24-8ea7-4cb6-baab-2df8fc515665", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20695,7 +20719,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     sourceBranch: sourceBranch,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "b005ef73-cddc-448e-9ba2-5193bf36b19f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "b005ef73-cddc-448e-9ba2-5193bf36b19f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20720,7 +20744,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "b005ef73-cddc-448e-9ba2-5193bf36b19f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "b005ef73-cddc-448e-9ba2-5193bf36b19f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20754,7 +20778,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "Release", "a7e426b1-03dc-48af-9dfe-c98bac612dcb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "Release", "a7e426b1-03dc-48af-9dfe-c98bac612dcb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20785,7 +20809,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     environmentId: environmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.7", "Release", "a7e426b1-03dc-48af-9dfe-c98bac612dcb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.7", "Release", "a7e426b1-03dc-48af-9dfe-c98bac612dcb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20812,7 +20836,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20845,7 +20869,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     templateId: templateId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20878,7 +20902,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     templateId: templateId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20908,7 +20932,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     isDeleted: isDeleted,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20941,7 +20965,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     templateId: templateId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.4", "Release", "6b03b696-824e-4479-8eb2-6644a51aba89", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -20972,7 +20996,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     identityId: identityId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "938f7222-9acb-48fe-b8a3-4eda04597171", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "938f7222-9acb-48fe-b8a3-4eda04597171", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21004,7 +21028,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     favoriteItemIds: favoriteItemIds,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "938f7222-9acb-48fe-b8a3-4eda04597171", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "938f7222-9acb-48fe-b8a3-4eda04597171", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21034,7 +21058,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     identityId: identityId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "938f7222-9acb-48fe-b8a3-4eda04597171", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "938f7222-9acb-48fe-b8a3-4eda04597171", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21059,7 +21083,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     flightName: flightName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "409d301f-3046-46f3-beb9-4357fbce0a8c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "409d301f-3046-46f3-beb9-4357fbce0a8c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21088,7 +21112,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     path: path
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21116,7 +21140,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     path: path
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21148,7 +21172,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     queryOrder: queryOrder,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21177,7 +21201,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     path: path
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "f7ddf76d-ce0c-4d68-94ff-becaec5d9dea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21206,7 +21230,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     gateStepId: gateStepId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "2666a539-2001-4f80-bcc7-0379956749d4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "2666a539-2001-4f80-bcc7-0379956749d4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21232,7 +21256,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "23f461c8-629a-4144-a076-3054fa5f268a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "23f461c8-629a-4144-a076-3054fa5f268a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21257,7 +21281,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "71dd499b-317d-45ea-9134-140ea1932b5e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "71dd499b-317d-45ea-9134-140ea1932b5e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21287,7 +21311,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     sourceId: sourceId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "cd42261a-f5c6-41c8-9259-f078989b9f25", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "cd42261a-f5c6-41c8-9259-f078989b9f25", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21321,7 +21345,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     taskId: taskId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "dec7ca5a-7f7f-4797-8bf1-8efc0dc93b28", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "dec7ca5a-7f7f-4797-8bf1-8efc0dc93b28", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -21347,7 +21371,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "c37fbab5-214b-48e4-a55b-cb6b4f6e4038", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "c37fbab5-214b-48e4-a55b-cb6b4f6e4038", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -21381,7 +21405,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     attemptId: attemptId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "e71ba1ed-c0a4-4a28-a61f-2dd5f68cf3fd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "e71ba1ed-c0a4-4a28-a61f-2dd5f68cf3fd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -21421,7 +21445,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     endLine: endLine,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "2577e6c3-6999-4400-bc69-fe1d837755fe", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "2577e6c3-6999-4400-bc69-fe1d837755fe", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -21459,7 +21483,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     endLine: endLine,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "17c91af7-09fd-4256-bff1-c24ee4f73bc0", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "17c91af7-09fd-4256-bff1-c24ee4f73bc0", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -21487,7 +21511,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     manualInterventionId: manualInterventionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "616c46e4-f370-4456-adaa-fbaf79c7b79e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "616c46e4-f370-4456-adaa-fbaf79c7b79e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21515,7 +21539,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "616c46e4-f370-4456-adaa-fbaf79c7b79e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "616c46e4-f370-4456-adaa-fbaf79c7b79e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21546,7 +21570,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     manualInterventionId: manualInterventionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "616c46e4-f370-4456-adaa-fbaf79c7b79e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "616c46e4-f370-4456-adaa-fbaf79c7b79e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21574,7 +21598,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     minMetricsTime: minMetricsTime,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "cd1502bb-3c73-4e11-80a6-d11308dceae5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "cd1502bb-3c73-4e11-80a6-d11308dceae5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21597,7 +21621,7 @@ class ReleaseApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "d156c759-ca4e-492b-90d4-db03971796ea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "d156c759-ca4e-492b-90d4-db03971796ea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21621,7 +21645,7 @@ class ReleaseApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "d156c759-ca4e-492b-90d4-db03971796ea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "d156c759-ca4e-492b-90d4-db03971796ea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21647,7 +21671,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "e816b9f4-f9fe-46ba-bdcc-a9af6abf3144", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "e816b9f4-f9fe-46ba-bdcc-a9af6abf3144", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21674,7 +21698,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "e816b9f4-f9fe-46ba-bdcc-a9af6abf3144", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "e816b9f4-f9fe-46ba-bdcc-a9af6abf3144", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21707,7 +21731,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     artifactSourceId: artifactSourceId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "917ace4a-79d1-45a7-987c-7be4db4268fa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "917ace4a-79d1-45a7-987c-7be4db4268fa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21777,7 +21801,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     path: path,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21804,7 +21828,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21836,7 +21860,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     comment: comment,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21874,7 +21898,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     '$topGateRecords': topGateRecords,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21916,7 +21940,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     definitionEnvironmentIdsFilter: definitionEnvironmentIdsFilter && definitionEnvironmentIdsFilter.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -21951,7 +21975,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     definitionSnapshotRevision: definitionSnapshotRevision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -21984,7 +22008,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     comment: comment,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22013,7 +22037,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22042,7 +22066,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.8", "Release", "a166fde7-27ad-408e-ba75-703c2cc9d500", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22068,7 +22092,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c63c3718-7cfd-41e0-b89b-81c1ca143437", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c63c3718-7cfd-41e0-b89b-81c1ca143437", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22095,7 +22119,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c63c3718-7cfd-41e0-b89b-81c1ca143437", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c63c3718-7cfd-41e0-b89b-81c1ca143437", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22125,7 +22149,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     revision: revision
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "258b82e0-9d41-43f3-86d6-fef14ddd44bc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "258b82e0-9d41-43f3-86d6-fef14ddd44bc", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -22151,7 +22175,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "258b82e0-9d41-43f3-86d6-fef14ddd44bc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "258b82e0-9d41-43f3-86d6-fef14ddd44bc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22177,7 +22201,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "224e92b2-8d13-4c14-b120-13d877c516f8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "224e92b2-8d13-4c14-b120-13d877c516f8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22204,7 +22228,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "224e92b2-8d13-4c14-b120-13d877c516f8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "224e92b2-8d13-4c14-b120-13d877c516f8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22230,7 +22254,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "0e5def23-78b3-461f-8198-1558f25041c8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "0e5def23-78b3-461f-8198-1558f25041c8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22260,7 +22284,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22289,7 +22313,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseDefinitionId: releaseDefinitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22319,7 +22343,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22347,7 +22371,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseDefinitionId: releaseDefinitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "3d21b4c8-c32e-45b2-a7cb-770a369012f4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22377,7 +22401,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22406,7 +22430,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22436,7 +22460,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     tag: tag
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22464,7 +22488,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseId: releaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "c5b602b6-d1b3-4363-8a51-94384f78068f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22488,7 +22512,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "86cee25a-68ba-4ba3-9171-8ad6ffc6df93", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "86cee25a-68ba-4ba3-9171-8ad6ffc6df93", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22518,7 +22542,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseDeployPhaseId: releaseDeployPhaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "4259191d-4b0a-4409-9fb3-09f22ab9bc47", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "4259191d-4b0a-4409-9fb3-09f22ab9bc47", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22550,7 +22574,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     timelineId: timelineId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "4259291d-4b0a-4409-9fb3-04f22ab9bc47", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "4259291d-4b0a-4409-9fb3-04f22ab9bc47", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22582,7 +22606,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     attemptId: attemptId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Release", "36b276e0-3c70-4320-a63c-1a2e1466a0d1", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Release", "36b276e0-3c70-4320-a63c-1a2e1466a0d1", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22606,7 +22630,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "8efc2a3c-1fc8-4f6d-9822-75e98cecb48f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "8efc2a3c-1fc8-4f6d-9822-75e98cecb48f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22637,7 +22661,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     releaseDefinitionId: releaseDefinitionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "30fc787e-a9e0-4a07-9fbc-3e903aa051d2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "30fc787e-a9e0-4a07-9fbc-3e903aa051d2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22662,7 +22686,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "30fc787e-a9e0-4a07-9fbc-3e903aa051d2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "30fc787e-a9e0-4a07-9fbc-3e903aa051d2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -22696,7 +22720,7 @@ class ReleaseApi extends basem.ClientApiBase {
                     artifactAlias: artifactAlias,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Release", "4f165cc0-875c-4768-b148-f12f78769fab", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Release", "4f165cc0-875c-4768-b148-f12f78769fab", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23438,7 +23462,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23462,7 +23486,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentCloudId: agentCloudId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23486,7 +23510,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentCloudId: agentCloudId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23507,7 +23531,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23532,7 +23556,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentCloudId: agentCloudId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "bfa72b3d-0fc6-43fb-932b-a7f6559f93b9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23555,7 +23579,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "5932e193-f376-469d-9c3e-e5588ce12cb5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "5932e193-f376-469d-9c3e-e5588ce12cb5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23590,7 +23614,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "f5f81ffb-f396-498d-85b1-5ada145e648a", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "f5f81ffb-f396-498d-85b1-5ada145e648a", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23617,7 +23641,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     queueId: queueId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "f5f81ffb-f396-498d-85b1-5ada145e648a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "f5f81ffb-f396-498d-85b1-5ada145e648a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23644,7 +23668,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23672,7 +23696,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentId: agentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23710,7 +23734,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     propertyFilters: propertyFilters && propertyFilters.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23750,7 +23774,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     demands: demands && demands.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23779,7 +23803,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentId: agentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23808,7 +23832,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentId: agentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e298ef32-5878-4cab-993c-043836571f42", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23831,7 +23855,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "39fe3bf2-7ee0-4198-a469-4a29929afa9c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "39fe3bf2-7ee0-4198-a469-4a29929afa9c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23854,7 +23878,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "bcd6189c-0303-471f-a8e1-acb22b74d700", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "bcd6189c-0303-471f-a8e1-acb22b74d700", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23882,7 +23906,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "3d197ba2-c3e9-4253-882f-0ee2440f8174", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "3d197ba2-c3e9-4253-882f-0ee2440f8174", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23909,7 +23933,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23937,7 +23961,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -23971,7 +23995,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24011,7 +24035,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     ids: ids && ids.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24040,7 +24064,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "083c4d89-ab35-45af-aa11-7cf66895c53e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24074,7 +24098,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "281c6308-427a-49e1-b83a-dac0f4862189", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "281c6308-427a-49e1-b83a-dac0f4862189", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24109,7 +24133,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completedRequestCount: completedRequestCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a3540e5b-f0dc-4668-963b-b752459be545", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a3540e5b-f0dc-4668-963b-b752459be545", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24141,7 +24165,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completedRequestCount: completedRequestCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a3540e5b-f0dc-4668-963b-b752459be545", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a3540e5b-f0dc-4668-963b-b752459be545", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24167,7 +24191,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "91006ac4-0f68-4d82-a2bc-540676bd73ce", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "91006ac4-0f68-4d82-a2bc-540676bd73ce", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24193,7 +24217,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "e077ee4a-399b-420b-841f-c43fbc058e0b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "e077ee4a-399b-420b-841f-c43fbc058e0b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24224,7 +24248,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolIds: poolIds && poolIds.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6525d6c6-258f-40e0-a1a9-8a24a3957625", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6525d6c6-258f-40e0-a1a9-8a24a3957625", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24261,7 +24285,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completedRequestCount: completedRequestCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2fac0be3-8c8f-4473-ab93-c1389b08a2c9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2fac0be3-8c8f-4473-ab93-c1389b08a2c9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24299,7 +24323,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completedRequestCount: completedRequestCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2fac0be3-8c8f-4473-ab93-c1389b08a2c9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2fac0be3-8c8f-4473-ab93-c1389b08a2c9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24327,7 +24351,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "1c1a817f-f23d-41c6-bf8d-14b638f64152", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "1c1a817f-f23d-41c6-bf8d-14b638f64152", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24351,7 +24375,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "f223b809-8c33-4b7d-b53f-07232569b5d6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "f223b809-8c33-4b7d-b53f-07232569b5d6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24385,7 +24409,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     top: top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "51bb5d21-4305-4ea6-9dbb-b7488af73334", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "51bb5d21-4305-4ea6-9dbb-b7488af73334", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24412,7 +24436,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24440,7 +24464,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     environmentId: environmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24472,7 +24496,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     expands: expands,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24506,7 +24530,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24535,7 +24559,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     environmentId: environmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8572b1fc-2482-47fa-8f74-7e3ed53ee54b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24565,7 +24589,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     includeHostedAgentMinutesCount: includeHostedAgentMinutesCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "distributedtask", "f9f0f436-b8a1-4475-9041-1ccdbf8f0128", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "distributedtask", "f9f0f436-b8a1-4475-9041-1ccdbf8f0128", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24590,7 +24614,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     hubName: hubName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "distributedtask", "f9f0f436-b8a1-4475-9041-1ccdbf8f0128", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "distributedtask", "f9f0f436-b8a1-4475-9041-1ccdbf8f0128", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24612,7 +24636,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "58475b1e-adaf-4155-9bc1-e04bf1fff4c2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "58475b1e-adaf-4155-9bc1-e04bf1fff4c2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24649,7 +24673,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentShuttingDown: agentShuttingDown,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24679,7 +24703,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     includeStatus: includeStatus,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24712,7 +24736,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24745,7 +24769,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completedRequestCount: completedRequestCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24775,7 +24799,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completedRequestCount: completedRequestCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24808,7 +24832,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     jobId: jobId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24833,7 +24857,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24869,7 +24893,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     updateOptions: updateOptions,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "fc825784-c92a-4299-9221-998a02d1b54f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24896,7 +24920,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     environmentId: environmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "73fba52f-15ab-42b3-a538-ce67a9223a04", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "73fba52f-15ab-42b3-a538-ce67a9223a04", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24924,7 +24948,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     resourceId: resourceId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "73fba52f-15ab-42b3-a538-ce67a9223a04", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "73fba52f-15ab-42b3-a538-ce67a9223a04", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24952,7 +24976,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     resourceId: resourceId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "73fba52f-15ab-42b3-a538-ce67a9223a04", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "73fba52f-15ab-42b3-a538-ce67a9223a04", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -24978,7 +25002,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineGroupId: machineGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "f8c7c0de-ac0d-469b-9cb1-c21f72d67693", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "f8c7c0de-ac0d-469b-9cb1-c21f72d67693", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25003,7 +25027,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25029,7 +25053,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineGroupId: machineGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25059,7 +25083,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25089,7 +25113,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25116,7 +25140,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineGroupId: machineGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "d4adf50f-80c6-4ac8-9ca1-6e4e544286e9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25146,7 +25170,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     tagFilters: tagFilters && tagFilters.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "966c3874-c347-4b18-a90c-d509116717fd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "966c3874-c347-4b18-a90c-d509116717fd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25173,7 +25197,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineGroupId: machineGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "966c3874-c347-4b18-a90c-d509116717fd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "966c3874-c347-4b18-a90c-d509116717fd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25200,7 +25224,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25228,7 +25252,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineId: machineId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25260,7 +25284,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25294,7 +25318,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25323,7 +25347,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineId: machineId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25352,7 +25376,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     machineId: machineId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25379,7 +25403,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6f6d406f-cfe6-409c-9327-7009928077e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25404,7 +25428,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25430,7 +25454,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25456,7 +25480,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25480,7 +25504,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25507,7 +25531,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     definitionId: definitionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "80572e16-58f0-4419-ac07-d19fde32195c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25533,7 +25557,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     jobId: jobId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25559,7 +25583,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     jobId: jobId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25585,7 +25609,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     jobId: jobId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -25611,7 +25635,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     definitionId: definitionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25636,7 +25660,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25663,7 +25687,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     jobId: jobId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "15e7ab6e-abce-4601-a6d8-e111fe148f46", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25696,7 +25720,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     sessionId: sessionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25729,7 +25753,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     lastMessageId: lastMessageId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25760,7 +25784,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentId: agentId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25784,7 +25808,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25816,7 +25840,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     requestId: requestId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "c3a054f6-7a8a-49c0-944e-3a8e5d7adfd7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25844,7 +25868,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     version: version
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "8ffcd551-079c-493a-9c02-54346299d144", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "8ffcd551-079c-493a-9c02-54346299d144", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25874,7 +25898,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "8ffcd551-079c-493a-9c02-54346299d144", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "8ffcd551-079c-493a-9c02-54346299d144", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25898,7 +25922,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "0d62f887-9f53-48b9-9161-4c35d5735b0f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "0d62f887-9f53-48b9-9161-4c35d5735b0f", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -25923,7 +25947,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "0d62f887-9f53-48b9-9161-4c35d5735b0f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "0d62f887-9f53-48b9-9161-4c35d5735b0f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -25948,7 +25972,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -25974,7 +25998,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26006,7 +26030,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26039,7 +26063,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26071,7 +26095,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26098,7 +26122,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "a8c47e17-4d56-4a56-92bb-de7ea7dc65be", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26129,7 +26153,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     authorizePipelines: authorizePipelines,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26155,7 +26179,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26183,7 +26207,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     queueId: queueId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26215,7 +26239,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26247,7 +26271,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26282,7 +26306,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26317,7 +26341,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26352,7 +26376,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "900fa995-c559-4923-aae7-f8424fe4fbea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26376,7 +26400,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentCloudId: agentCloudId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "20189bd7-5134-49c2-b8e9-f9e856eea2b2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "20189bd7-5134-49c2-b8e9-f9e856eea2b2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26397,7 +26421,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "1f1f0557-c445-42a6-b4a0-0df605a3a0f8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "1f1f0557-c445-42a6-b4a0-0df605a3a0f8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26426,7 +26450,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     includeRunningRequests: includeRunningRequests,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "eae1d376-a8b1-4475-9041-1dfdbe8f0143", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "eae1d376-a8b1-4475-9041-1dfdbe8f0143", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26452,7 +26476,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     taskGroupId: taskGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "100cc92a-b255-47fa-9ab3-e44a2985a3ac", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "100cc92a-b255-47fa-9ab3-e44a2985a3ac", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26480,7 +26504,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     secureFileId: secureFileId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26517,7 +26541,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     download: download,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -26549,7 +26573,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26583,7 +26607,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26620,7 +26644,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26657,7 +26681,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     actionFilter: actionFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26688,7 +26712,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     namePattern: namePattern,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26717,7 +26741,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     secureFileId: secureFileId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26744,7 +26768,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26782,7 +26806,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "adcfd8bc-b184-43ba-bd84-7c8c6a2ff421", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -26808,7 +26832,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     poolId: poolId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "134e239e-2df3-4794-a6f6-24f1f19ec8dc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "134e239e-2df3-4794-a6f6-24f1f19ec8dc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26834,7 +26858,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     sessionId: sessionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "134e239e-2df3-4794-a6f6-24f1f19ec8dc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "134e239e-2df3-4794-a6f6-24f1f19ec8dc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26863,7 +26887,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26893,7 +26917,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     targetId: targetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26927,7 +26951,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -26977,7 +27001,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     propertyFilters: propertyFilters && propertyFilters.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27008,7 +27032,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     targetId: targetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27039,7 +27063,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     targetId: targetId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27068,7 +27092,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     deploymentGroupId: deploymentGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "2f0aa599-c121-4256-a5fd-ba370e0ae7b6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27095,7 +27119,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27127,7 +27151,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     comment: comment,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27164,7 +27188,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27197,7 +27221,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     revision: revision,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -27237,7 +27261,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     queryOrder: queryOrder,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27269,7 +27293,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     parentTaskGroupId: parentTaskGroupId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27294,7 +27318,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27323,7 +27347,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     taskGroupId: taskGroupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27354,7 +27378,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     disablePriorVersions: disablePriorVersions,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "6c08ffbf-dbf1-4f9a-94e5-a1cbd47005e7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27378,7 +27402,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     taskId: taskId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27410,7 +27434,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     scopeLocal: scopeLocal,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -27440,7 +27464,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     scopeLocal: scopeLocal,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27472,7 +27496,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     allVersions: allVersions,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27505,7 +27529,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     currentState: currentState,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8cc1b02b-ae49-4516-b5ad-4f9b29967c30", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8cc1b02b-ae49-4516-b5ad-4f9b29967c30", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27532,7 +27556,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     agentId: agentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "30ba3ada-fedf-4da8-bbb5-dacf2f82e176", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "30ba3ada-fedf-4da8-bbb5-dacf2f82e176", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27556,7 +27580,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27589,7 +27613,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     projectIds: projectIds && projectIds.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27620,7 +27644,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     variableGroupId: variableGroupId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27647,7 +27671,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "ef5b7057-ffc3-4c77-bbad-c10b4a4abcc7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27675,7 +27699,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "f5b09dd5-9d54-45a1-8b5a-1c8287d634cc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "f5b09dd5-9d54-45a1-8b5a-1c8287d634cc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27713,7 +27737,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     queryOrder: queryOrder,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "f5b09dd5-9d54-45a1-8b5a-1c8287d634cc", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "f5b09dd5-9d54-45a1-8b5a-1c8287d634cc", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27746,7 +27770,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     groupIds: groupIds && groupIds.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "f5b09dd5-9d54-45a1-8b5a-1c8287d634cc", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "f5b09dd5-9d54-45a1-8b5a-1c8287d634cc", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27773,7 +27797,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     environmentId: environmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27801,7 +27825,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     resourceId: resourceId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27829,7 +27853,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     resourceId: resourceId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27856,7 +27880,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     environmentId: environmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9e597901-4af7-4cc3-8d92-47d54db8ebfb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27896,7 +27920,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "48700676-2ba5-4282-8ec8-083280d169c7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "48700676-2ba5-4282-8ec8-083280d169c7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27925,7 +27949,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     resourceId: resourceId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "48700676-2ba5-4282-8ec8-083280d169c7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "48700676-2ba5-4282-8ec8-083280d169c7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27947,7 +27971,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9c63205e-3a0f-42a0-ad88-095200f13607", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9c63205e-3a0f-42a0-ad88-095200f13607", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -27986,7 +28010,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     completeCallbackByAuthCode: completeCallbackByAuthCode,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9c63205e-3a0f-42a0-ad88-095200f13607", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9c63205e-3a0f-42a0-ad88-095200f13607", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28007,7 +28031,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "9c63205e-3a0f-42a0-ad88-095200f13607", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "9c63205e-3a0f-42a0-ad88-095200f13607", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28034,7 +28058,7 @@ class TaskAgentApiBase extends basem.ClientApiBase {
                     validateTaskNames: validateTaskNames,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "1f9990b9-1dba-441f-9c2e-6485888c42b6", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "1f9990b9-1dba-441f-9c2e-6485888c42b6", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28100,7 +28124,7 @@ class TaskApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "eb55e5d6-2f30-4295-b5ed-38da50b1fc52", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "eb55e5d6-2f30-4295-b5ed-38da50b1fc52", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28139,7 +28163,7 @@ class TaskApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -28188,7 +28212,7 @@ class TaskApi extends basem.ClientApiBase {
                     length: length,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28224,7 +28248,7 @@ class TaskApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28260,7 +28284,7 @@ class TaskApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -28292,7 +28316,7 @@ class TaskApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "7898f959-9cdf-4096-b29e-7f293031629e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28325,7 +28349,7 @@ class TaskApi extends basem.ClientApiBase {
                     recordId: recordId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "858983e4-19bd-4c5e-864c-507b59b58b12", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "858983e4-19bd-4c5e-864c-507b59b58b12", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28370,7 +28394,7 @@ class TaskApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "858983e4-19bd-4c5e-864c-507b59b58b12", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "858983e4-19bd-4c5e-864c-507b59b58b12", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28398,7 +28422,7 @@ class TaskApi extends basem.ClientApiBase {
                     orchestrationId: orchestrationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "0a1efd25-abda-43bd-9629-6c7bdd2e0d60", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "0a1efd25-abda-43bd-9629-6c7bdd2e0d60", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28431,7 +28455,7 @@ class TaskApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -28474,7 +28498,7 @@ class TaskApi extends basem.ClientApiBase {
                     lineCount: lineCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28503,7 +28527,7 @@ class TaskApi extends basem.ClientApiBase {
                     planId: planId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28539,7 +28563,7 @@ class TaskApi extends basem.ClientApiBase {
                     endLine: endLine,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28567,7 +28591,7 @@ class TaskApi extends basem.ClientApiBase {
                     planId: planId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "46f5667d-263a-4684-91b1-dff7fdcf64e2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28593,7 +28617,7 @@ class TaskApi extends basem.ClientApiBase {
                     hubName: hubName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "038fd4d5-cda7-44ca-92c0-935843fee1a7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "038fd4d5-cda7-44ca-92c0-935843fee1a7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28625,7 +28649,7 @@ class TaskApi extends basem.ClientApiBase {
                     count: count,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "0dd73091-3e36-4f43-b443-1b76dd426d84", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "0dd73091-3e36-4f43-b443-1b76dd426d84", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28653,7 +28677,7 @@ class TaskApi extends basem.ClientApiBase {
                     planGroup: planGroup
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "65fd0708-bc1e-447b-a731-0587c5464e5b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "65fd0708-bc1e-447b-a731-0587c5464e5b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28681,7 +28705,7 @@ class TaskApi extends basem.ClientApiBase {
                     planId: planId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "distributedtask", "5cecd946-d704-471e-a45f-3b4064fcfaba", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "distributedtask", "5cecd946-d704-471e-a45f-3b4064fcfaba", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28715,7 +28739,7 @@ class TaskApi extends basem.ClientApiBase {
                     changeId: changeId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8893bc5b-35b2-4be7-83cb-99e683551db4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8893bc5b-35b2-4be7-83cb-99e683551db4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28746,7 +28770,7 @@ class TaskApi extends basem.ClientApiBase {
                     timelineId: timelineId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "8893bc5b-35b2-4be7-83cb-99e683551db4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "8893bc5b-35b2-4be7-83cb-99e683551db4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28775,7 +28799,7 @@ class TaskApi extends basem.ClientApiBase {
                     planId: planId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28805,7 +28829,7 @@ class TaskApi extends basem.ClientApiBase {
                     timelineId: timelineId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28841,7 +28865,7 @@ class TaskApi extends basem.ClientApiBase {
                     includeRecords: includeRecords,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28869,7 +28893,7 @@ class TaskApi extends basem.ClientApiBase {
                     planId: planId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "distributedtask", "83597576-cc2c-453c-bea6-2882ae6a1653", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28944,7 +28968,7 @@ class TestApi extends basem.ClientApiBase {
                     actionPath: actionPath,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -28975,7 +28999,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseResultId: testCaseResultId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29013,7 +29037,7 @@ class TestApi extends basem.ClientApiBase {
                     testSubResultId: testSubResultId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29045,7 +29069,7 @@ class TestApi extends basem.ClientApiBase {
                     attachmentId: attachmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -29073,7 +29097,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseResultId: testCaseResultId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29105,7 +29129,7 @@ class TestApi extends basem.ClientApiBase {
                     attachmentId: attachmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -29142,7 +29166,7 @@ class TestApi extends basem.ClientApiBase {
                     testSubResultId: testSubResultId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -29177,7 +29201,7 @@ class TestApi extends basem.ClientApiBase {
                     testSubResultId: testSubResultId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29216,7 +29240,7 @@ class TestApi extends basem.ClientApiBase {
                     testSubResultId: testSubResultId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "2bffebe9-2f0f-4639-9af8-56129e9fed2d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -29243,7 +29267,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29273,7 +29297,7 @@ class TestApi extends basem.ClientApiBase {
                     attachmentId: attachmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -29299,7 +29323,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29329,7 +29353,7 @@ class TestApi extends basem.ClientApiBase {
                     attachmentId: attachmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "4f004af4-a507-489c-9b13-cb62060beb11", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -29355,7 +29379,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseResultId: testCaseResultId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "6de20ca2-67de-4faf-97fa-38c5d585eb00", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "6de20ca2-67de-4faf-97fa-38c5d585eb00", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29393,7 +29417,7 @@ class TestApi extends basem.ClientApiBase {
                     flags: flags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "77560e8a-4e8c-4d59-894e-a5f264c24444", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "77560e8a-4e8c-4d59-894e-a5f264c24444", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29428,7 +29452,7 @@ class TestApi extends basem.ClientApiBase {
                     deltaBuildId: deltaBuildId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "77560e8a-4e8c-4d59-894e-a5f264c24444", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "77560e8a-4e8c-4d59-894e-a5f264c24444", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29462,7 +29486,7 @@ class TestApi extends basem.ClientApiBase {
                     buildId: buildId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "77560e8a-4e8c-4d59-894e-a5f264c24444", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "77560e8a-4e8c-4d59-894e-a5f264c24444", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29497,7 +29521,7 @@ class TestApi extends basem.ClientApiBase {
                     flags: flags,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "9629116f-3b89-4ed8-b358-d4694efda160", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "9629116f-3b89-4ed8-b358-d4694efda160", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29522,7 +29546,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "8ce1923b-f4c7-4e22-b93b-f6284e525ec2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "8ce1923b-f4c7-4e22-b93b-f6284e525ec2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29553,7 +29577,7 @@ class TestApi extends basem.ClientApiBase {
                     scopeFilter: scopeFilter,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "8ce1923b-f4c7-4e22-b93b-f6284e525ec2", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "8ce1923b-f4c7-4e22-b93b-f6284e525ec2", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29578,7 +29602,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "234616f5-429c-4e7b-9192-affd76731dfd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "234616f5-429c-4e7b-9192-affd76731dfd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29614,7 +29638,7 @@ class TestApi extends basem.ClientApiBase {
                     includeActionResults: includeActionResults,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "73eb9074-3446-4c44-8296-2f811950ff8d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "73eb9074-3446-4c44-8296-2f811950ff8d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29648,7 +29672,7 @@ class TestApi extends basem.ClientApiBase {
                     includeActionResults: includeActionResults,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "73eb9074-3446-4c44-8296-2f811950ff8d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "73eb9074-3446-4c44-8296-2f811950ff8d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29673,7 +29697,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "a4dcb25b-9878-49ea-abfd-e440bd9b1dcd", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "a4dcb25b-9878-49ea-abfd-e440bd9b1dcd", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29701,7 +29725,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "a1e55200-637e-42e9-a7c0-7e5bfdedb1b3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "a1e55200-637e-42e9-a7c0-7e5bfdedb1b3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29737,7 +29761,7 @@ class TestApi extends basem.ClientApiBase {
                     witFields: witFields,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "3bcfd5c8-be62-488e-b1da-b8289ce9299c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "3bcfd5c8-be62-488e-b1da-b8289ce9299c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29783,7 +29807,7 @@ class TestApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "3bcfd5c8-be62-488e-b1da-b8289ce9299c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "3bcfd5c8-be62-488e-b1da-b8289ce9299c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29816,7 +29840,7 @@ class TestApi extends basem.ClientApiBase {
                     pointIds: pointIds
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "3bcfd5c8-be62-488e-b1da-b8289ce9299c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "3bcfd5c8-be62-488e-b1da-b8289ce9299c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29849,7 +29873,7 @@ class TestApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "b4264fd0-a5d1-43e2-82a5-b9c46b7da9ce", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "b4264fd0-a5d1-43e2-82a5-b9c46b7da9ce", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29892,7 +29916,7 @@ class TestApi extends basem.ClientApiBase {
                     queryRunSummaryForInProgress: queryRunSummaryForInProgress,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "efb387b0-10d5-42e7-be40-95e06ee9430f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "efb387b0-10d5-42e7-be40-95e06ee9430f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29940,7 +29964,7 @@ class TestApi extends basem.ClientApiBase {
                     queryRunSummaryForInProgress: queryRunSummaryForInProgress,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "b834ec7e-35bb-450f-a3c8-802e70ca40dd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "b834ec7e-35bb-450f-a3c8-802e70ca40dd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -29967,7 +29991,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "370ca04b-8eec-4ca8-8ba3-d24dca228791", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "370ca04b-8eec-4ca8-8ba3-d24dca228791", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30007,7 +30031,7 @@ class TestApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "d279d052-c55a-4204-b913-42f733b52958", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "d279d052-c55a-4204-b913-42f733b52958", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30049,7 +30073,7 @@ class TestApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "ef5ce5d4-a4e5-47ee-804c-354518f8d03f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "ef5ce5d4-a4e5-47ee-804c-354518f8d03f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30076,7 +30100,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "afa7830e-67a7-4336-8090-2b448ca80295", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "afa7830e-67a7-4336-8090-2b448ca80295", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30102,7 +30126,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "a3206d9e-fa8d-42d3-88cb-f75c51e69cde", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "a3206d9e-fa8d-42d3-88cb-f75c51e69cde", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30129,7 +30153,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "a3206d9e-fa8d-42d3-88cb-f75c51e69cde", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "a3206d9e-fa8d-42d3-88cb-f75c51e69cde", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30158,7 +30182,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30192,7 +30216,7 @@ class TestApi extends basem.ClientApiBase {
                     detailsToInclude: detailsToInclude,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30230,7 +30254,7 @@ class TestApi extends basem.ClientApiBase {
                     outcomes: outcomes && outcomes.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30259,7 +30283,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.6", "Test", "4637d869-3a76-4468-8057-0bb02aa385cf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30286,7 +30310,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.6", "Test", "6711da49-8e6f-4d35-9f73-cef7a3c81a5b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.6", "Test", "6711da49-8e6f-4d35-9f73-cef7a3c81a5b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30325,7 +30349,7 @@ class TestApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "3c191b88-615b-4be2-b7d9-5ff9141e91d4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "3c191b88-615b-4be2-b7d9-5ff9141e91d4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30366,7 +30390,7 @@ class TestApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "ce01820b-83f3-4c15-a583-697a43292c4e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "ce01820b-83f3-4c15-a583-697a43292c4e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30403,7 +30427,7 @@ class TestApi extends basem.ClientApiBase {
                     buildToCompare: buildToCompare,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "000ef77b-fea2-498d-a10d-ad1a037f559f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "000ef77b-fea2-498d-a10d-ad1a037f559f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30445,7 +30469,7 @@ class TestApi extends basem.ClientApiBase {
                     releaseToCompare: releaseToCompare,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "85765790-ac68-494e-b268-af36c3929744", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "85765790-ac68-494e-b268-af36c3929744", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30470,7 +30494,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "85765790-ac68-494e-b268-af36c3929744", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "85765790-ac68-494e-b268-af36c3929744", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30499,7 +30523,7 @@ class TestApi extends basem.ClientApiBase {
                     workItemIds: workItemIds && workItemIds.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "cd08294e-308d-4460-a46e-4cfdefba0b4b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "cd08294e-308d-4460-a46e-4cfdefba0b4b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30524,7 +30548,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "fbc82a85-0786-4442-88bb-eb0fda6b01b0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "fbc82a85-0786-4442-88bb-eb0fda6b01b0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30549,7 +30573,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "dd178e93-d8dd-4887-9635-d6b9560b7b6e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "dd178e93-d8dd-4887-9635-d6b9560b7b6e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30577,7 +30601,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "0a42c424-d764-4a16-a2d5-5c85f87d0ae8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "0a42c424-d764-4a16-a2d5-5c85f87d0ae8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30604,7 +30628,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30632,7 +30656,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30664,7 +30688,7 @@ class TestApi extends basem.ClientApiBase {
                     includeDetails: includeDetails,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30708,7 +30732,7 @@ class TestApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30774,7 +30798,7 @@ class TestApi extends basem.ClientApiBase {
                     continuationToken: continuationToken,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30803,7 +30827,7 @@ class TestApi extends basem.ClientApiBase {
                     runId: runId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "cadb3810-d47d-4a3c-a234-fe5f3be50138", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30837,7 +30861,7 @@ class TestApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "1500b4b4-6c69-4ca6-9b18-35e9e97fe2ac", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "1500b4b4-6c69-4ca6-9b18-35e9e97fe2ac", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30882,7 +30906,7 @@ class TestApi extends basem.ClientApiBase {
                     includeOnlyCompletedSessions: includeOnlyCompletedSessions,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "1500b4b4-6c69-4ca6-9b18-35e9e97fe2ac", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "1500b4b4-6c69-4ca6-9b18-35e9e97fe2ac", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30916,7 +30940,7 @@ class TestApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "1500b4b4-6c69-4ca6-9b18-35e9e97fe2ac", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "1500b4b4-6c69-4ca6-9b18-35e9e97fe2ac", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30942,7 +30966,7 @@ class TestApi extends basem.ClientApiBase {
                     sharedParameterId: sharedParameterId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "8300eeca-0f8c-4eff-a089-d2dda409c41f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "8300eeca-0f8c-4eff-a089-d2dda409c41f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -30968,7 +30992,7 @@ class TestApi extends basem.ClientApiBase {
                     sharedStepId: sharedStepId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "fabb3cc9-e3f8-40b7-8b62-24cc4b73fccf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "fabb3cc9-e3f8-40b7-8b62-24cc4b73fccf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31001,7 +31025,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseIds: testCaseIds
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31034,7 +31058,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseIds: testCaseIds
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31065,7 +31089,7 @@ class TestApi extends basem.ClientApiBase {
                     suiteId: suiteId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31098,7 +31122,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseIds: testCaseIds
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31132,7 +31156,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseIds: testCaseIds
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "Test", "a4a1ec1c-b03f-41ca-8857-704594ecf58e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31160,7 +31184,7 @@ class TestApi extends basem.ClientApiBase {
                     testCaseId: testCaseId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "4d472e0f-e32c-4ef8-adf4-a4078772889c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "4d472e0f-e32c-4ef8-adf4-a4078772889c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31187,7 +31211,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "Test", "929fd86c-3e38-4d8c-b4b6-90df256e5971", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "Test", "929fd86c-3e38-4d8c-b4b6-90df256e5971", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31212,7 +31236,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "8133ce14-962f-42af-a5f9-6aa9defcb9c8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "8133ce14-962f-42af-a5f9-6aa9defcb9c8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31238,7 +31262,7 @@ class TestApi extends basem.ClientApiBase {
                     testSettingsId: testSettingsId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "8133ce14-962f-42af-a5f9-6aa9defcb9c8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "8133ce14-962f-42af-a5f9-6aa9defcb9c8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31264,7 +31288,7 @@ class TestApi extends basem.ClientApiBase {
                     testSettingsId: testSettingsId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "8133ce14-962f-42af-a5f9-6aa9defcb9c8", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "8133ce14-962f-42af-a5f9-6aa9defcb9c8", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31289,7 +31313,7 @@ class TestApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "371b1655-ce05-412e-a113-64cc77bb78d2", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "371b1655-ce05-412e-a113-64cc77bb78d2", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31325,7 +31349,7 @@ class TestApi extends basem.ClientApiBase {
                     workItemId: workItemId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "7b0bdee3-a354-47f9-a42c-89018d7808d5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "7b0bdee3-a354-47f9-a42c-89018d7808d5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31356,7 +31380,7 @@ class TestApi extends basem.ClientApiBase {
                     testName: testName,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "7b0bdee3-a354-47f9-a42c-89018d7808d5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "7b0bdee3-a354-47f9-a42c-89018d7808d5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31397,7 +31421,7 @@ class TestApi extends basem.ClientApiBase {
                     '$workItemCount': workItemCount,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "Test", "926ff5dc-137f-45f0-bd51-9412fa9810ce", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "Test", "926ff5dc-137f-45f0-bd51-9412fa9810ce", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31470,7 +31494,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeChildren: includeChildren,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "bc1f417e-239d-42e7-85e1-76e80cb2d6eb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "bc1f417e-239d-42e7-85e1-76e80cb2d6eb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31506,7 +31530,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "bc1f417e-239d-42e7-85e1-76e80cb2d6eb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "bc1f417e-239d-42e7-85e1-76e80cb2d6eb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31543,7 +31567,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeLinks: includeLinks,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "bc1f417e-239d-42e7-85e1-76e80cb2d6eb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "bc1f417e-239d-42e7-85e1-76e80cb2d6eb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31575,7 +31599,7 @@ class TfvcApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "f32b86f2-15b9-4fe6-81b1-6f8938617ee5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "f32b86f2-15b9-4fe6-81b1-6f8938617ee5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31602,7 +31626,7 @@ class TfvcApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "tfvc", "0bc8f0a4-6bfb-42a9-ba84-139da7b99c49", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "tfvc", "0bc8f0a4-6bfb-42a9-ba84-139da7b99c49", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31650,7 +31674,7 @@ class TfvcApi extends basem.ClientApiBase {
                     searchCriteria: searchCriteria,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "tfvc", "0bc8f0a4-6bfb-42a9-ba84-139da7b99c49", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "tfvc", "0bc8f0a4-6bfb-42a9-ba84-139da7b99c49", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31688,7 +31712,7 @@ class TfvcApi extends basem.ClientApiBase {
                     searchCriteria: searchCriteria,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "tfvc", "0bc8f0a4-6bfb-42a9-ba84-139da7b99c49", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "tfvc", "0bc8f0a4-6bfb-42a9-ba84-139da7b99c49", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31712,7 +31736,7 @@ class TfvcApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "b7e7c173-803c-4fea-9ec8-31ee35c5502a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "b7e7c173-803c-4fea-9ec8-31ee35c5502a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31738,7 +31762,7 @@ class TfvcApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "64ae0bea-1d71-47c9-a9e5-fe73f5ea0ff4", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "64ae0bea-1d71-47c9-a9e5-fe73f5ea0ff4", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31765,7 +31789,7 @@ class TfvcApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "fe6f827b-5f64-480f-b8af-1eca3b80e833", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "fe6f827b-5f64-480f-b8af-1eca3b80e833", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31792,7 +31816,7 @@ class TfvcApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "fe6f827b-5f64-480f-b8af-1eca3b80e833", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "fe6f827b-5f64-480f-b8af-1eca3b80e833", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -31835,7 +31859,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31880,7 +31904,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -31914,7 +31938,7 @@ class TfvcApi extends basem.ClientApiBase {
                     versionDescriptor: versionDescriptor,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -31959,7 +31983,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -32002,7 +32026,7 @@ class TfvcApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "ba9fc436-9a38-4578-89d6-e4f3241f5040", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -32032,7 +32056,7 @@ class TfvcApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "06166e34-de17-4b60-8cd1-23182a346fda", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "06166e34-de17-4b60-8cd1-23182a346fda", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32067,7 +32091,7 @@ class TfvcApi extends basem.ClientApiBase {
                     requestData: requestData,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "a5d9bd7f-b661-4d0e-b9be-d9c16affae54", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "a5d9bd7f-b661-4d0e-b9be-d9c16affae54", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32104,7 +32128,7 @@ class TfvcApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "a5d9bd7f-b661-4d0e-b9be-d9c16affae54", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "a5d9bd7f-b661-4d0e-b9be-d9c16affae54", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32138,7 +32162,7 @@ class TfvcApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "dbaf075b-0445-4c34-9e5b-82292f856522", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "dbaf075b-0445-4c34-9e5b-82292f856522", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32170,7 +32194,7 @@ class TfvcApi extends basem.ClientApiBase {
                     requestData: requestData,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "e36d44fb-e907-4b0a-b194-f83f1ed32ad3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "e36d44fb-e907-4b0a-b194-f83f1ed32ad3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32201,7 +32225,7 @@ class TfvcApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "e36d44fb-e907-4b0a-b194-f83f1ed32ad3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "e36d44fb-e907-4b0a-b194-f83f1ed32ad3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32231,7 +32255,7 @@ class TfvcApi extends basem.ClientApiBase {
                     shelvesetId: shelvesetId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "a7a0c1c1-373e-425a-b031-a519474d743d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "a7a0c1c1-373e-425a-b031-a519474d743d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -32261,7 +32285,7 @@ class TfvcApi extends basem.ClientApiBase {
                     scopePath: scopePath,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "tfvc", "e15c74c0-3605-40e0-aed4-4cc61e549ed8", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "tfvc", "e15c74c0-3605-40e0-aed4-4cc61e549ed8", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33037,7 +33061,7 @@ class WikiApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "5100d976-363d-42e7-a19d-4171ecb44782", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "5100d976-363d-42e7-a19d-4171ecb44782", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -33070,7 +33094,7 @@ class WikiApi extends basem.ClientApiBase {
                     attachmentId: attachmentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "5100d976-363d-42e7-a19d-4171ecb44782", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "5100d976-363d-42e7-a19d-4171ecb44782", routeValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -33102,7 +33126,7 @@ class WikiApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "7a5bc693-aab7-4d48-8f34-36f373022063", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "7a5bc693-aab7-4d48-8f34-36f373022063", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33136,7 +33160,7 @@ class WikiApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "7a5bc693-aab7-4d48-8f34-36f373022063", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "7a5bc693-aab7-4d48-8f34-36f373022063", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33176,7 +33200,7 @@ class WikiApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "598a5268-41a7-4162-b7dc-344131e4d1fa", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "598a5268-41a7-4162-b7dc-344131e4d1fa", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33207,7 +33231,7 @@ class WikiApi extends basem.ClientApiBase {
                     pageId: pageId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33239,7 +33263,7 @@ class WikiApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33277,7 +33301,7 @@ class WikiApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33321,7 +33345,7 @@ class WikiApi extends basem.ClientApiBase {
                     parentId: parentId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33354,7 +33378,7 @@ class WikiApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "9b394e93-7db5-46cb-9c26-09a36aa5c895", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33392,7 +33416,7 @@ class WikiApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "25d3fbc7-fe3d-46cb-b5a5-0b6f79caf27b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "25d3fbc7-fe3d-46cb-b5a5-0b6f79caf27b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -33428,7 +33452,7 @@ class WikiApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "25d3fbc7-fe3d-46cb-b5a5-0b6f79caf27b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "25d3fbc7-fe3d-46cb-b5a5-0b6f79caf27b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -33462,7 +33486,7 @@ class WikiApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "ceddcf75-1068-452d-8b13-2d4d76e1f970", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "ceddcf75-1068-452d-8b13-2d4d76e1f970", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("text/plain", apiVersion);
@@ -33496,7 +33520,7 @@ class WikiApi extends basem.ClientApiBase {
                     includeContent: includeContent,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "ceddcf75-1068-452d-8b13-2d4d76e1f970", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "ceddcf75-1068-452d-8b13-2d4d76e1f970", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -33527,7 +33551,7 @@ class WikiApi extends basem.ClientApiBase {
                     versionDescriptor: versionDescriptor,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "71323c46-2592-4398-8771-ced73dd87207", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "71323c46-2592-4398-8771-ced73dd87207", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33561,7 +33585,7 @@ class WikiApi extends basem.ClientApiBase {
                     pageViewsForDays: pageViewsForDays,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "81c4e0fe-7663-4d62-ad46-6ab78459f274", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "81c4e0fe-7663-4d62-ad46-6ab78459f274", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33603,7 +33627,7 @@ class WikiApi extends basem.ClientApiBase {
                     oldPath: oldPath,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wiki", "1087b746-5d15-41b9-bea6-14e325e7f880", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wiki", "1087b746-5d15-41b9-bea6-14e325e7f880", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33630,7 +33654,7 @@ class WikiApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33658,7 +33682,7 @@ class WikiApi extends basem.ClientApiBase {
                     wikiIdentifier: wikiIdentifier
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33684,7 +33708,7 @@ class WikiApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33712,7 +33736,7 @@ class WikiApi extends basem.ClientApiBase {
                     wikiIdentifier: wikiIdentifier
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33741,7 +33765,7 @@ class WikiApi extends basem.ClientApiBase {
                     wikiIdentifier: wikiIdentifier
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wiki", "288d122c-dbd4-451d-aa5f-7dbbba070728", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33810,7 +33834,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "7799f497-3cb5-4f16-ad4f-5cd06012db64", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "7799f497-3cb5-4f16-ad4f-5cd06012db64", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33845,7 +33869,7 @@ class WorkApi extends basem.ClientApiBase {
                     backlogId: backlogId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "7c468d96-ab1d-4294-a360-92f07e9ccd98", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "7c468d96-ab1d-4294-a360-92f07e9ccd98", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33880,7 +33904,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "a93726f9-7867-4e38-b4f2-0bfafc2f6a94", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "a93726f9-7867-4e38-b4f2-0bfafc2f6a94", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33913,7 +33937,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "a93726f9-7867-4e38-b4f2-0bfafc2f6a94", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "a93726f9-7867-4e38-b4f2-0bfafc2f6a94", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33954,7 +33978,7 @@ class WorkApi extends basem.ClientApiBase {
                     columns: columns && columns.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0120b002-ab6c-4ca0-98cf-a8d7492f865c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0120b002-ab6c-4ca0-98cf-a8d7492f865c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -33995,7 +34019,7 @@ class WorkApi extends basem.ClientApiBase {
                     columns: columns && columns.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0120b002-ab6c-4ca0-98cf-a8d7492f865c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0120b002-ab6c-4ca0-98cf-a8d7492f865c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34021,7 +34045,7 @@ class WorkApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "eb7ec5a3-1ba3-4fd1-b834-49a5a387e57d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "eb7ec5a3-1ba3-4fd1-b834-49a5a387e57d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34066,7 +34090,7 @@ class WorkApi extends basem.ClientApiBase {
                     workitemIds: workitemIds && workitemIds.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "186abea3-5c35-432f-9e28-7a15b4312a0e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "186abea3-5c35-432f-9e28-7a15b4312a0e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34092,7 +34116,7 @@ class WorkApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "bb494cc6-a0f5-4c6c-8dca-ea6912e79eb9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "bb494cc6-a0f5-4c6c-8dca-ea6912e79eb9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34127,7 +34151,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "23ad19fc-3b8e-4877-8462-b3f92bc06b40", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "23ad19fc-3b8e-4877-8462-b3f92bc06b40", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34160,7 +34184,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "23ad19fc-3b8e-4877-8462-b3f92bc06b40", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "23ad19fc-3b8e-4877-8462-b3f92bc06b40", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34196,7 +34220,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "23ad19fc-3b8e-4877-8462-b3f92bc06b40", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "23ad19fc-3b8e-4877-8462-b3f92bc06b40", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34231,7 +34255,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "b30d9f58-1891-4b0a-b168-c46408f919b0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "b30d9f58-1891-4b0a-b168-c46408f919b0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34267,7 +34291,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "b30d9f58-1891-4b0a-b168-c46408f919b0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "b30d9f58-1891-4b0a-b168-c46408f919b0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34302,7 +34326,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34339,7 +34363,7 @@ class WorkApi extends basem.ClientApiBase {
                     teamMemberId: teamMemberId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34375,7 +34399,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34413,7 +34437,7 @@ class WorkApi extends basem.ClientApiBase {
                     teamMemberId: teamMemberId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "work", "74412d15-8c1a-4352-a48d-ef1ed5587d57", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34448,7 +34472,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "work", "b044a3d9-02ea-49c7-91a1-b730949cc896", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "work", "b044a3d9-02ea-49c7-91a1-b730949cc896", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34484,7 +34508,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "work", "b044a3d9-02ea-49c7-91a1-b730949cc896", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "work", "b044a3d9-02ea-49c7-91a1-b730949cc896", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34518,7 +34542,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "work", "3f84a8d1-1aab-423e-a94b-6dcbdcca511f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "work", "3f84a8d1-1aab-423e-a94b-6dcbdcca511f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34553,7 +34577,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "work", "07c3b467-bc60-4f05-8e34-599ce288fafc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "work", "07c3b467-bc60-4f05-8e34-599ce288fafc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34589,7 +34613,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "work", "07c3b467-bc60-4f05-8e34-599ce288fafc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "work", "07c3b467-bc60-4f05-8e34-599ce288fafc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34623,7 +34647,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "work", "0d63745f-31f3-4cf3-9056-2a064e567637", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "work", "0d63745f-31f3-4cf3-9056-2a064e567637", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34660,7 +34684,7 @@ class WorkApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "45fe888c-239e-49fd-958c-df1a1ab21d97", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "45fe888c-239e-49fd-958c-df1a1ab21d97", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34695,7 +34719,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "45fe888c-239e-49fd-958c-df1a1ab21d97", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "45fe888c-239e-49fd-958c-df1a1ab21d97", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34733,7 +34757,7 @@ class WorkApi extends basem.ClientApiBase {
                     name: name
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "45fe888c-239e-49fd-958c-df1a1ab21d97", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "45fe888c-239e-49fd-958c-df1a1ab21d97", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34768,7 +34792,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c555d7ff-84e1-47df-9923-a3fe0cd8751b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c555d7ff-84e1-47df-9923-a3fe0cd8751b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34804,7 +34828,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c555d7ff-84e1-47df-9923-a3fe0cd8751b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c555d7ff-84e1-47df-9923-a3fe0cd8751b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34840,7 +34864,7 @@ class WorkApi extends basem.ClientApiBase {
                     endDate: endDate,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "bdd0834e-101f-49f0-a6ae-509f384a12b4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "bdd0834e-101f-49f0-a6ae-509f384a12b4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34868,7 +34892,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "1e385ce0-396b-4273-8171-d64562c18d37", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "1e385ce0-396b-4273-8171-d64562c18d37", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34903,7 +34927,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34938,7 +34962,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -34975,7 +34999,7 @@ class WorkApi extends basem.ClientApiBase {
                     '$timeframe': timeframe,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35009,7 +35033,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c9175577-28a1-4b06-9197-8636af9f64ad", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35036,7 +35060,7 @@ class WorkApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35064,7 +35088,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35092,7 +35116,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35118,7 +35142,7 @@ class WorkApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35147,7 +35171,7 @@ class WorkApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0b42cb47-cd73-4810-ac90-19c9ba147453", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35173,7 +35197,7 @@ class WorkApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "f901ba42-86d2-4b0c-89c1-3f86d06daa84", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "f901ba42-86d2-4b0c-89c1-3f86d06daa84", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35208,7 +35232,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0863355d-aefd-4d63-8669-984c9b7b0e78", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0863355d-aefd-4d63-8669-984c9b7b0e78", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35244,7 +35268,7 @@ class WorkApi extends basem.ClientApiBase {
                     board: board
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "0863355d-aefd-4d63-8669-984c9b7b0e78", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "0863355d-aefd-4d63-8669-984c9b7b0e78", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35275,7 +35299,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c6815dbe-8e7e-4ffe-9a79-e83ee712aa92", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c6815dbe-8e7e-4ffe-9a79-e83ee712aa92", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35307,7 +35331,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c6815dbe-8e7e-4ffe-9a79-e83ee712aa92", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c6815dbe-8e7e-4ffe-9a79-e83ee712aa92", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35340,7 +35364,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "1be23c36-8872-4abc-b57d-402cd6c669d9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "1be23c36-8872-4abc-b57d-402cd6c669d9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35376,7 +35400,7 @@ class WorkApi extends basem.ClientApiBase {
                     workItemId: workItemId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "1be23c36-8872-4abc-b57d-402cd6c669d9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "1be23c36-8872-4abc-b57d-402cd6c669d9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35411,7 +35435,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "2d4faa2e-9150-4cbf-a47a-932b1b4a0773", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "2d4faa2e-9150-4cbf-a47a-932b1b4a0773", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35447,7 +35471,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "2d4faa2e-9150-4cbf-a47a-932b1b4a0773", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "2d4faa2e-9150-4cbf-a47a-932b1b4a0773", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35480,7 +35504,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "07ced576-58ed-49e6-9c1e-5cb53ab8bf2a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "07ced576-58ed-49e6-9c1e-5cb53ab8bf2a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35514,7 +35538,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "07ced576-58ed-49e6-9c1e-5cb53ab8bf2a", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "07ced576-58ed-49e6-9c1e-5cb53ab8bf2a", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35547,7 +35571,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c3c1012b-bea7-49d7-b45e-1664e566f84c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c3c1012b-bea7-49d7-b45e-1664e566f84c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35581,7 +35605,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "c3c1012b-bea7-49d7-b45e-1664e566f84c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "c3c1012b-bea7-49d7-b45e-1664e566f84c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35616,7 +35640,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "5b3ef1a6-d3ab-44cd-bafd-c7f45db850fa", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "5b3ef1a6-d3ab-44cd-bafd-c7f45db850fa", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35650,7 +35674,7 @@ class WorkApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "1c22b714-e7e4-41b9-85e0-56ee13ef55ed", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "1c22b714-e7e4-41b9-85e0-56ee13ef55ed", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35686,7 +35710,7 @@ class WorkApi extends basem.ClientApiBase {
                     iterationId: iterationId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "work", "47755db2-d7eb-405a-8c25-675401525fc9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "work", "47755db2-d7eb-405a-8c25-675401525fc9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35749,7 +35773,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$queryOption': queryOption,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "def3d688-ddf5-4096-9024-69beea15cdbd", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "def3d688-ddf5-4096-9024-69beea15cdbd", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35772,7 +35796,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "1bc988f4-c15f-4072-ad35-497c87e3a909", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "1bc988f4-c15f-4072-ad35-497c87e3a909", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35795,7 +35819,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "d60eeb6e-e18c-4478-9e94-a0094e28f41c", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "d60eeb6e-e18c-4478-9e94-a0094e28f41c", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35818,7 +35842,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "1a31de40-e318-41cd-a6c6-881077df52e3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "1a31de40-e318-41cd-a6c6-881077df52e3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35845,7 +35869,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "a9a9aa7a-8c09-44d3-ad1b-46e855c1e3d3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "a9a9aa7a-8c09-44d3-ad1b-46e855c1e3d3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -35882,7 +35906,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/octet-stream";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "e07b5fa4-1499-494d-a496-64b860fd64ff", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "e07b5fa4-1499-494d-a496-64b860fd64ff", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -35917,7 +35941,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     download: download,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "e07b5fa4-1499-494d-a496-64b860fd64ff", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "e07b5fa4-1499-494d-a496-64b860fd64ff", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/octet-stream", apiVersion);
@@ -35949,7 +35973,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     download: download,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "e07b5fa4-1499-494d-a496-64b860fd64ff", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "e07b5fa4-1499-494d-a496-64b860fd64ff", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("application/zip", apiVersion);
@@ -35984,7 +36008,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     errorPolicy: errorPolicy,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a70579d1-f53a-48ee-a5be-7be8659023b9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a70579d1-f53a-48ee-a5be-7be8659023b9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36014,7 +36038,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$depth': depth,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a70579d1-f53a-48ee-a5be-7be8659023b9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a70579d1-f53a-48ee-a5be-7be8659023b9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36045,7 +36069,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     path: path
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36079,7 +36103,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$reclassifyId': reclassifyId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36113,7 +36137,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$depth': depth,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36144,7 +36168,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     path: path
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "5a172953-1b41-49d3-840a-33f79c3ce89f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36182,7 +36206,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "e33ca5e0-2349-4285-af3d-d72d86781c35", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "e33ca5e0-2349-4285-af3d-d72d86781c35", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36211,7 +36235,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     workItemId: workItemId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36241,7 +36265,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36277,7 +36301,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36317,7 +36341,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     order: order,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36356,7 +36380,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36387,7 +36411,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "608aac0a-32e1-4493-a863-b9cf4566d257", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36419,7 +36443,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     reactionType: reactionType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "f6cb3f27-1028-4851-af96-887e570dc21f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "f6cb3f27-1028-4851-af96-887e570dc21f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36451,7 +36475,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     reactionType: reactionType
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "f6cb3f27-1028-4851-af96-887e570dc21f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "f6cb3f27-1028-4851-af96-887e570dc21f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36481,7 +36505,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "f6cb3f27-1028-4851-af96-887e570dc21f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "f6cb3f27-1028-4851-af96-887e570dc21f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36511,7 +36535,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     version: version
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "49e03b34-3be0-42e3-8a5d-e8dfb88ac954", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "49e03b34-3be0-42e3-8a5d-e8dfb88ac954", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36539,7 +36563,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     commentId: commentId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "49e03b34-3be0-42e3-8a5d-e8dfb88ac954", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "49e03b34-3be0-42e3-8a5d-e8dfb88ac954", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36566,7 +36590,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36594,7 +36618,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     fieldNameOrRefName: fieldNameOrRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36622,7 +36646,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     fieldNameOrRefName: fieldNameOrRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36652,7 +36676,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36681,7 +36705,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     fieldNameOrRefName: fieldNameOrRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b51fd764-e5c2-4b9b-aaf7-3395cf4bdd94", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36708,7 +36732,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "19801631-d4e5-47e9-8166-0330de0ff1e6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "19801631-d4e5-47e9-8166-0330de0ff1e6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36741,7 +36765,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     validateWiqlOnly: validateWiqlOnly,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36769,7 +36793,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     query: query
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36803,7 +36827,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$includeDeleted': includeDeleted,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36841,7 +36865,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$useIsoDateFormat': useIsoDateFormat,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36880,7 +36904,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$includeDeleted': includeDeleted,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36913,7 +36937,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$undeleteDescendants': undeleteDescendants,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a67d190c-c41f-424b-814d-0e906f659301", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36940,7 +36964,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "549816f9-09b0-4e75-9e81-01fbfcd07426", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "549816f9-09b0-4e75-9e81-01fbfcd07426", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36968,7 +36992,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -36996,7 +37020,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37029,7 +37053,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     ids: ids && ids.join(","),
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37055,7 +37079,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37084,7 +37108,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     id: id
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "b70d8d39-926c-465e-b927-b1bf0e5ca0e0", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37118,7 +37142,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "a00c85a5-80fa-4565-99c3-bcd2181434bb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "a00c85a5-80fa-4565-99c3-bcd2181434bb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37154,7 +37178,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "a00c85a5-80fa-4565-99c3-bcd2181434bb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "a00c85a5-80fa-4565-99c3-bcd2181434bb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37181,7 +37205,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "12438500-2f84-4fa7-9f1a-c31871b4959d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "12438500-2f84-4fa7-9f1a-c31871b4959d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37207,7 +37231,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     tagIdOrName: tagIdOrName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37233,7 +37257,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     tagIdOrName: tagIdOrName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37257,7 +37281,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37284,7 +37308,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     tagIdOrName: tagIdOrName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "bc15bc60-e7a8-43cb-ab01-2106be3983a1", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37318,7 +37342,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     team: team
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "6a90345f-a676-4969-afce-8e163e1d5642", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "6a90345f-a676-4969-afce-8e163e1d5642", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37355,7 +37379,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     workitemtypename: workitemtypename,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "6a90345f-a676-4969-afce-8e163e1d5642", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "6a90345f-a676-4969-afce-8e163e1d5642", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37390,7 +37414,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     templateId: templateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "fb10264a-8836-48a0-8033-1b0ccd2748d5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "fb10264a-8836-48a0-8033-1b0ccd2748d5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37425,7 +37449,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     templateId: templateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "fb10264a-8836-48a0-8033-1b0ccd2748d5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "fb10264a-8836-48a0-8033-1b0ccd2748d5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37461,7 +37485,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     templateId: templateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "fb10264a-8836-48a0-8033-1b0ccd2748d5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "fb10264a-8836-48a0-8033-1b0ccd2748d5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37491,7 +37515,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     updateNumber: updateNumber
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "6570bf97-d02c-4a91-8d93-3abe9895b1a9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "6570bf97-d02c-4a91-8d93-3abe9895b1a9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37525,7 +37549,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$skip': skip,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "6570bf97-d02c-4a91-8d93-3abe9895b1a9", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "6570bf97-d02c-4a91-8d93-3abe9895b1a9", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37565,7 +37589,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "1a9c53f7-f243-4447-b110-35ef023636e4", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "1a9c53f7-f243-4447-b110-35ef023636e4", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37606,7 +37630,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$top': top,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "a02355f5-5f8a-4671-8e32-369d23aac83d", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "a02355f5-5f8a-4671-8e32-369d23aac83d", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37638,7 +37662,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     v: v,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37661,7 +37685,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37693,7 +37717,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     v: v,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("image/svg+xml", apiVersion);
@@ -37723,7 +37747,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     v: v,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "4e1eb4a5-1970-4228-a682-ec48eb2dca30", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let apiVersion = verData.apiVersion;
                     let accept = this.createAcceptHeader("image/xaml+xml", apiVersion);
@@ -37757,7 +37781,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     startDateTime: startDateTime,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "b5b5b6d0-0308-40a1-b3f4-b9bb3c66878f", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "b5b5b6d0-0308-40a1-b3f4-b9bb3c66878f", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37783,7 +37807,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     relation: relation
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "f5d33bc9-5b49-4a3c-a9bd-f3cd46dd2165", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "f5d33bc9-5b49-4a3c-a9bd-f3cd46dd2165", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37806,7 +37830,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "f5d33bc9-5b49-4a3c-a9bd-f3cd46dd2165", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "f5d33bc9-5b49-4a3c-a9bd-f3cd46dd2165", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37856,7 +37880,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$maxPageSize': maxPageSize,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "f828fe59-dd87-495d-a17c-7a8d6211ca6c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "f828fe59-dd87-495d-a17c-7a8d6211ca6c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37891,7 +37915,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "f828fe59-dd87-495d-a17c-7a8d6211ca6c", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "f828fe59-dd87-495d-a17c-7a8d6211ca6c", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37921,7 +37945,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$maxPageSize': maxPageSize,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "4a644469-90c5-4fcc-9a9f-be0827d369ec", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "4a644469-90c5-4fcc-9a9f-be0827d369ec", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -37962,7 +37986,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "62d3d110-0047-428c-ad3c-4fe872c91c74", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "62d3d110-0047-428c-ad3c-4fe872c91c74", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -37999,7 +38023,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "62d3d110-0047-428c-ad3c-4fe872c91c74", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "62d3d110-0047-428c-ad3c-4fe872c91c74", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38031,7 +38055,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     destroy: destroy,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38067,7 +38091,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38108,7 +38132,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     errorPolicy: errorPolicy,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38149,7 +38173,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                 customHeaders = customHeaders || {};
                 customHeaders["Content-Type"] = "application/json-patch+json";
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "72c7ddf8-2cdc-4f60-90cd-ab71c14a399b", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     options.additionalHeaders = customHeaders;
@@ -38177,7 +38201,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "908509b6-4248-4475-a1cd-829139ba419f", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "908509b6-4248-4475-a1cd-829139ba419f", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38201,7 +38225,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "0b83df8a-3496-4ddb-ba44-63634f4cda61", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "0b83df8a-3496-4ddb-ba44-63634f4cda61", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38233,7 +38257,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     action: action,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "afae844b-e2f6-44c2-8053-17b3bb936a40", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "afae844b-e2f6-44c2-8053-17b3bb936a40", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38259,7 +38283,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "9b9f5734-36c8-415e-ba67-f83b45c31408", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "9b9f5734-36c8-415e-ba67-f83b45c31408", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38287,7 +38311,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     category: category
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "9b9f5734-36c8-415e-ba67-f83b45c31408", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "9b9f5734-36c8-415e-ba67-f83b45c31408", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38311,7 +38335,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "958fde80-115e-43fb-bd65-749c48057faf", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "958fde80-115e-43fb-bd65-749c48057faf", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38335,7 +38359,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "f0f8dc62-3975-48ce-8051-f636b68b52e3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "f0f8dc62-3975-48ce-8051-f636b68b52e3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38363,7 +38387,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "7c8d7a76-4a09-43e8-b5df-bd792f4ac6aa", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "7c8d7a76-4a09-43e8-b5df-bd792f4ac6aa", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38389,7 +38413,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "wit", "7c8d7a76-4a09-43e8-b5df-bd792f4ac6aa", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "wit", "7c8d7a76-4a09-43e8-b5df-bd792f4ac6aa", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38421,7 +38445,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "bd293ce5-3d25-4192-8e67-e8092e879efb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "bd293ce5-3d25-4192-8e67-e8092e879efb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38455,7 +38479,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.3", "wit", "bd293ce5-3d25-4192-8e67-e8092e879efb", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.3", "wit", "bd293ce5-3d25-4192-8e67-e8092e879efb", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38483,7 +38507,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     type: type
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "7c9d7a76-4a09-43e8-b5df-bd792f4ac6aa", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "7c9d7a76-4a09-43e8-b5df-bd792f4ac6aa", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38515,7 +38539,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     exportGlobalLists: exportGlobalLists,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "8637ac8b-5eb6-4f90-b3f7-4f2ff576a459", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "8637ac8b-5eb6-4f90-b3f7-4f2ff576a459", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38542,7 +38566,7 @@ class WorkItemTrackingApi extends basem.ClientApiBase {
                     project: project
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "wit", "8637ac8b-5eb6-4f90-b3f7-4f2ff576a459", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "wit", "8637ac8b-5eb6-4f90-b3f7-4f2ff576a459", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38605,7 +38629,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38633,7 +38657,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     behaviorRefName: behaviorRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38665,7 +38689,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38695,7 +38719,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38724,7 +38748,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     behaviorRefName: behaviorRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "d1800200-f184-4e75-a5f2-ad0b04b4373e", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38755,7 +38779,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38792,7 +38816,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     removeFromGroupId: removeFromGroupId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38824,7 +38848,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     controlId: controlId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38857,7 +38881,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     controlId: controlId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1f59b363-a2d0-4b7e-9bc6-eb9f5f3f0e58", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38886,7 +38910,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38914,7 +38938,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38948,7 +38972,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -38978,7 +39002,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     fieldRefName: fieldRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39009,7 +39033,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     fieldRefName: fieldRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "bc0ad8dc-e3f3-46b0-b06c-5bf861793196", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39042,7 +39066,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     sectionId: sectionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39089,7 +39113,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     removeFromSectionId: removeFromSectionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39131,7 +39155,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     removeFromSectionId: removeFromSectionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39165,7 +39189,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39200,7 +39224,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "766e44e1-36a8-41d7-9050-c343ff02f7a5", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39228,7 +39252,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "fa8646eb-43cd-4b71-9564-40106fd63e40", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "fa8646eb-43cd-4b71-9564-40106fd63e40", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39252,7 +39276,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39278,7 +39302,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     listId: listId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39304,7 +39328,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     listId: listId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39327,7 +39351,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39354,7 +39378,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     listId: listId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "01e15468-e27c-4e20-a974-bd957dcccebc", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39383,7 +39407,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1cc7b29f-6697-4d9d-b0a1-2650d3e1d584", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1cc7b29f-6697-4d9d-b0a1-2650d3e1d584", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39413,7 +39437,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     pageId: pageId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1cc7b29f-6697-4d9d-b0a1-2650d3e1d584", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1cc7b29f-6697-4d9d-b0a1-2650d3e1d584", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39442,7 +39466,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "1cc7b29f-6697-4d9d-b0a1-2650d3e1d584", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "1cc7b29f-6697-4d9d-b0a1-2650d3e1d584", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39466,7 +39490,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39492,7 +39516,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     processTypeId: processTypeId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39519,7 +39543,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     processTypeId: processTypeId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39546,7 +39570,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39576,7 +39600,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "02cc6a73-5cfb-427d-8c8e-b49fb086e8af", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39605,7 +39629,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39635,7 +39659,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     ruleId: ruleId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39665,7 +39689,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     ruleId: ruleId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39693,7 +39717,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39724,7 +39748,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     ruleId: ruleId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "76fe3432-d825-479d-a5f6-983bbb78b4f3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39753,7 +39777,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39783,7 +39807,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39813,7 +39837,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39841,7 +39865,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39872,7 +39896,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39903,7 +39927,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "31015d57-2dff-4a46-adb3-2fb4ee3dcec9", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39933,7 +39957,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     controlId: controlId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "ff9a3d2c-32b7-4c6c-991c-d5a251fb9098", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "ff9a3d2c-32b7-4c6c-991c-d5a251fb9098", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39961,7 +39985,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "ff9a3d2c-32b7-4c6c-991c-d5a251fb9098", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "ff9a3d2c-32b7-4c6c-991c-d5a251fb9098", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -39992,7 +40016,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     controlId: controlId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "ff9a3d2c-32b7-4c6c-991c-d5a251fb9098", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "ff9a3d2c-32b7-4c6c-991c-d5a251fb9098", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40019,7 +40043,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40047,7 +40071,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40079,7 +40103,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40109,7 +40133,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40138,7 +40162,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.2", "processes", "e2e9d1a6-432d-4062-8870-bfcb8c324ad7", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40167,7 +40191,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefNameForBehaviors: witRefNameForBehaviors
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40197,7 +40221,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     behaviorRefName: behaviorRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40225,7 +40249,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefNameForBehaviors: witRefNameForBehaviors
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40255,7 +40279,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     behaviorRefName: behaviorRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40284,7 +40308,7 @@ class WorkItemTrackingProcessApi extends basem.ClientApiBase {
                     witRefNameForBehaviors: witRefNameForBehaviors
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processes", "6d765a2e-4e1b-4b11-be93-f953be676024", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40347,7 +40371,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40375,7 +40399,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     behaviorId: behaviorId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40403,7 +40427,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     behaviorId: behaviorId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40429,7 +40453,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40458,7 +40482,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     behaviorId: behaviorId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "47a651f4-fb70-43bf-b96b-7c0ba947142b", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40489,7 +40513,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40522,7 +40546,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     controlId: controlId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40554,7 +40578,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     controlId: controlId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40591,7 +40615,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     removeFromGroupId: removeFromGroupId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "e2e3166a-627a-4e9b-85b2-d6a097bbd731", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40618,7 +40642,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "f36c66c7-911d-4163-8938-d3c5d0d7f5aa", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "f36c66c7-911d-4163-8938-d3c5d0d7f5aa", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40645,7 +40669,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "f36c66c7-911d-4163-8938-d3c5d0d7f5aa", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "f36c66c7-911d-4163-8938-d3c5d0d7f5aa", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40678,7 +40702,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     sectionId: sectionId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40713,7 +40737,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40747,7 +40771,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     groupId: groupId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40794,7 +40818,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     removeFromSectionId: removeFromSectionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40836,7 +40860,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     removeFromSectionId: removeFromSectionId,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "2617828b-e850-4375-a92a-04855704d4c3", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40864,7 +40888,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "3eacc80a-ddca-4404-857a-6331aac99063", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "3eacc80a-ddca-4404-857a-6331aac99063", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40887,7 +40911,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "b45cc931-98e3-44a1-b1cd-2e8e9c6dc1c6", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "b45cc931-98e3-44a1-b1cd-2e8e9c6dc1c6", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40911,7 +40935,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
                 let routeValues = {};
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40937,7 +40961,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     listId: listId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40963,7 +40987,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     listId: listId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -40990,7 +41014,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     listId: listId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "0b6179e2-23ce-46b2-b094-2ffa5ee70286", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41019,7 +41043,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1b4ac126-59b2-4f37-b4df-0a48ba807edb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1b4ac126-59b2-4f37-b4df-0a48ba807edb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41048,7 +41072,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1b4ac126-59b2-4f37-b4df-0a48ba807edb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1b4ac126-59b2-4f37-b4df-0a48ba807edb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41078,7 +41102,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     pageId: pageId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1b4ac126-59b2-4f37-b4df-0a48ba807edb", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1b4ac126-59b2-4f37-b4df-0a48ba807edb", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41107,7 +41131,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41137,7 +41161,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41167,7 +41191,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41195,7 +41219,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41226,7 +41250,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41257,7 +41281,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     stateId: stateId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "4303625d-08f4-4461-b14b-32c65bba5599", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41286,7 +41310,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefNameForBehaviors: witRefNameForBehaviors
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41316,7 +41340,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     behaviorRefName: behaviorRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41344,7 +41368,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefNameForBehaviors: witRefNameForBehaviors
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41374,7 +41398,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     behaviorRefName: behaviorRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41403,7 +41427,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefNameForBehaviors: witRefNameForBehaviors
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "921dfb88-ef57-4c69-94e5-dd7da2d7031d", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41430,7 +41454,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     processId: processId
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41458,7 +41482,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41490,7 +41514,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41520,7 +41544,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     '$expand': expand,
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues, queryValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues, queryValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41549,7 +41573,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefName: witRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "1ce0acad-4638-49c3-969c-04aa65ba6bea", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41578,7 +41602,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefNameForFields: witRefNameForFields
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41608,7 +41632,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     fieldRefName: fieldRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41636,7 +41660,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefNameForFields: witRefNameForFields
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41666,7 +41690,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     fieldRefName: fieldRefName
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -41695,7 +41719,7 @@ class WorkItemTrackingProcessDefinitionsApi extends basem.ClientApiBase {
                     witRefNameForFields: witRefNameForFields
                 };
                 try {
-                    let verData = yield this.vsoClient.getVersioningData("6.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
+                    let verData = yield this.vsoClient.getVersioningData("7.1-preview.1", "processDefinitions", "976713b4-a62e-499e-94dc-eeb869ea9126", routeValues);
                     let url = verData.requestUrl;
                     let options = this.createRequestOptions('application/json', verData.apiVersion);
                     let res;
@@ -45031,6 +45055,10 @@ var ExtensionQueryFlags;
      */
     ExtensionQueryFlags[ExtensionQueryFlags["IncludeSharedOrganizations"] = 16384] = "IncludeSharedOrganizations";
     /**
+     * Include the details if an extension is in conflict list or not Currently being used for VSCode extensions.
+     */
+    ExtensionQueryFlags[ExtensionQueryFlags["IncludeNameConflictInfo"] = 32768] = "IncludeNameConflictInfo";
+    /**
      * AllAttributes is designed to be a mask that defines all sub-elements of the extension should be returned.  NOTE: This is not actually All flags. This is now locked to the set defined since changing this enum would be a breaking change and would change the behavior of anyone using it. Try not to use this value when making calls to the service, instead be explicit about the options required.
      */
     ExtensionQueryFlags[ExtensionQueryFlags["AllAttributes"] = 16863] = "AllAttributes";
@@ -45618,6 +45646,7 @@ exports.TypeInfo = {
             "includeMinimalPayloadForVsIde": 4096,
             "includeLcids": 8192,
             "includeSharedOrganizations": 16384,
+            "includeNameConflictInfo": 32768,
             "allAttributes": 16863
         }
     },
@@ -62861,6 +62890,7 @@ var stringify = function stringify(
     object,
     prefix,
     generateArrayPrefix,
+    commaRoundTrip,
     strictNullHandling,
     skipNulls,
     encoder,
@@ -62925,7 +62955,7 @@ var stringify = function stringify(
                 for (var i = 0; i < valuesArray.length; ++i) {
                     valuesJoined += (i === 0 ? '' : ',') + formatter(encoder(valuesArray[i], defaults.encoder, charset, 'value', format));
                 }
-                return [formatter(keyValue) + (isArray(obj) && valuesArray.length === 1 ? '[]' : '') + '=' + valuesJoined];
+                return [formatter(keyValue) + (commaRoundTrip && isArray(obj) && valuesArray.length === 1 ? '[]' : '') + '=' + valuesJoined];
             }
             return [formatter(keyValue) + '=' + formatter(encoder(obj, defaults.encoder, charset, 'value', format))];
         }
@@ -62949,7 +62979,7 @@ var stringify = function stringify(
         objKeys = sort ? keys.sort(sort) : keys;
     }
 
-    var adjustedPrefix = generateArrayPrefix === 'comma' && isArray(obj) && obj.length === 1 ? prefix + '[]' : prefix;
+    var adjustedPrefix = commaRoundTrip && isArray(obj) && obj.length === 1 ? prefix + '[]' : prefix;
 
     for (var j = 0; j < objKeys.length; ++j) {
         var key = objKeys[j];
@@ -62970,6 +63000,7 @@ var stringify = function stringify(
             value,
             keyPrefix,
             generateArrayPrefix,
+            commaRoundTrip,
             strictNullHandling,
             skipNulls,
             encoder,
@@ -63066,6 +63097,10 @@ module.exports = function (object, opts) {
     }
 
     var generateArrayPrefix = arrayPrefixGenerators[arrayFormat];
+    if (opts && 'commaRoundTrip' in opts && typeof opts.commaRoundTrip !== 'boolean') {
+        throw new TypeError('`commaRoundTrip` must be a boolean, or absent');
+    }
+    var commaRoundTrip = generateArrayPrefix === 'comma' && opts && opts.commaRoundTrip;
 
     if (!objKeys) {
         objKeys = Object.keys(obj);
@@ -63086,6 +63121,7 @@ module.exports = function (object, opts) {
             obj[key],
             key,
             generateArrayPrefix,
+            commaRoundTrip,
             options.strictNullHandling,
             options.skipNulls,
             options.encode ? options.encoder : null,
