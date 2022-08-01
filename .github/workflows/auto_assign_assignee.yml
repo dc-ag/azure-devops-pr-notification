@@ -1,7 +1,7 @@
 name: "Assign Assignees"
 on:
-  pull_request:
-    types: [ opened, ready_for_review ]
+  pull_request_target:
+    types: [ opened, ready_for_review, reopened]
 
 jobs:
   assign-assignees:
@@ -12,4 +12,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           read-token: ${{ secrets.AUTO_ASSIGN_ASSIGNEES_TOKEN }}
           team: ${{ secrets.PR_ASSIGNEE_TEAM_NAME }} # the team name
-          amount: 1 # amount of assignees to assign from the given team, 0 to assign all. If the amount exceeds the member count of the team all members will be added@
+          amount: 1 # amount of assignees to assign from the given team, 0 to assign all. If the amount exceeds the member count of the team all members will be added
