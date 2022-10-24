@@ -13,7 +13,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version: '12.x'
+        node-version: '16.x'
     - name: NPM iunstall
       run: npm install
     - name: NPM run all

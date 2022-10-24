@@ -39,5 +39,5 @@ inputs:
     description: "Regex to check branches. If matched the PR won't be assigned any reviewers via this workflow"
     required: false
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
