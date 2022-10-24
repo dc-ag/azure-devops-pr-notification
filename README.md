@@ -40,6 +40,7 @@ jobs:
                               # the work item id couldn't be found via the regex or an unforseen error occurs) set
                               # this to false. Setting this to false will also allow partial completion (e.g. only 
                               # link pr but not move the state)
+          ignore-branches-regex: "" # Regex to check branches. If matched the PR won't update any work items.                              
           
 ```
 

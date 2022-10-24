@@ -35,6 +35,9 @@ inputs:
       # this to false. Setting this to false will also allow partial completion (e.g. only
       # link pr but not move the state)"
     required: false
+  ignore-branches-regex: 
+    description: "Regex to check branches. If matched the PR won't be assigned any reviewers via this workflow"
+    required: false
 runs:
   using: "node12"
   main: "dist/index.js"
