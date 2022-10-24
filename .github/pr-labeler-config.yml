@@ -1,4 +1,4 @@
 feature: ['feature/*']
 feature_fix: ['feature_fix/*']
 hotfix: ['hotfix/*']
-maintenance: ['maintenance/*']
+maintenance: ['maintenance/*', 'dependabot/*']
