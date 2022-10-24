@@ -40,6 +40,9 @@ export async function run() {
       "dont-set-state-while-prs-open"
     );
     const addPullRequestLink: boolean = core.getBooleanInput("add-pr-link");
+    const ignoreBranchesRegex = core.getInput("ignore-branches-regex", {
+      required: false,
+    });
 
     const dataProviderUrl = dataProviderUrlBase.replace(
       "%DEVOPS_ORG%",
@@ -66,6 +69,11 @@ export async function run() {
       const branchName = prResponse.data.head.ref;
       const title = prResponse.data.title;
       const description = prResponse.data.body ?? "";
+
+      if (null !== branchName.match(ignoreBranchesRegex)) {
+        console.log("Branch matches ignore pattern, skipping!");
+        return;
+      }
 
       // Match from title
       console.log("Try matching work item id from title ...");
