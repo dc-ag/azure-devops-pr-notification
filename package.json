@@ -42,7 +42,7 @@
     "eslint-plugin-jest": "^27.1.7",
     "js-yaml": "^4.1.0",
     "nock": "^13.2.9",
-    "prettier": "2.8.1",
+    "prettier": "2.8.6",
     "typescript": "^4.9.4"
   }
 }
